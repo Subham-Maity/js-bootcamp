@@ -55,7 +55,7 @@ console.log("Hello world!");
 ```
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/1.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/2.png?raw=true"/>
         </p>
 Try it on HTML(Live Server)
 
@@ -77,6 +77,12 @@ console.log("Hello world!");
 </html>
 
 ```
+
+## Simple Calculation
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
 
 
 

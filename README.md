@@ -11,9 +11,17 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended!
 ## Chapters
 *******
-* [**Intro**](#intro)
+* [**Level 1 (Newbie)**](#level-1)
+  * [Display an alert box:](#display-an-alert-box)
+  * [Console log()](#console-log)
+  * [Simple Calculation](#simple-calculation) 
+
 ***********
-# Level 1 (Newbie)
+
+
+# Level 1 
+
+
 
 ## Display an alert box:
 

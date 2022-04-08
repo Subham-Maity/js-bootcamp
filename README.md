@@ -12,6 +12,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ## Chapters
 *******
 * [**Level 1 (Newbie)**](#level-1)
+  * [Basic info:](#basic-info) 
   * [Display an alert box:](#display-an-alert-box)
   * [Console log()](#console-log)
   * [Simple Calculation](#simple-calculation) 
@@ -19,7 +20,21 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ***********
 
 
+
+
 # Level 1 
+
+## Basic info
+
+- **JavaScript which is often known as JS, is a high-level dynamic interpreted programming language.**
+- **It allows client-side scripting to create completely dynamic web applications and websites.**
+- **JavaScript was initially designed for making pages "alive"**
+- **Scripts can be executed in the browser itself.**
+- **JavaScript and Java are different programming languages**
+- **It can be executed on the browser as well as the server**
+  **JavaScript is a safe language when used in browser**
+- **There are languages that get "transpiled" to JavaScript**
+
 
 
 

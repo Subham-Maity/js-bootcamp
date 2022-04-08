@@ -13,14 +13,20 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 *******
 * [**Intro**](#intro)
 ***********
-### Level 1 (Newbie)
+# Level 1 (Newbie)
 
-Display an alert box:
+## Display an alert box:
 
 ```javascript
 alert("Hello world");
 ```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/1.png?raw=true"/>
+        </p>
 Try it on HTML(Live Server)
+
+
 ```html
 <!DOCTYPE HTML>
 <html>
@@ -39,8 +45,38 @@ Try it on HTML(Live Server)
 
 </html>
 ```
+## Console log()
+The log() method writes (logs) a message to the console.
+
+The log() method is useful for testing purposes.
+
+```javascript
+console.log("Hello world!");
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/1.png?raw=true"/>
+        </p>
+Try it on HTML(Live Server)
 
 
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Console Object</h1>
+<h2>The log() Method</h2>
+<p>Remember to open the console (Press F12) before you click "Run".</p>
+
+<script>
+console.log("Hello world!");
+</script>
+
+</body>
+</html>
+
+```
 
 
 

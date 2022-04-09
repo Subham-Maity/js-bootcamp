@@ -108,4 +108,13 @@ console.log("Hello world!");
         </p>
 
 
+## Simple Vs hacks 
 
+### emmet abbreviations vscode
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/4.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/5.png?raw=true"/>
+        </p>

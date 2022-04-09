@@ -16,6 +16,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Display an alert box:](#display-an-alert-box)
   * [Console log()](#console-log)
   * [Simple Calculation](#simple-calculation) 
+  * [Simple VS Hacks](#simple-vs-hacks)
 
 ***********
 
@@ -131,3 +132,65 @@ Dot(.) means class and # means ID
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/8.png?raw=true"/>
         </p>
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Console Object</h1>
+<div class="container">
+
+    <button id="click">Click Me</button>
+</div>
+<h2>The log() Method</h2>
+
+<p>Remember to open the console (Press F12) before you click "Run".</p>
+
+<script>
+console.log("Hello world!");
+</script>
+
+</body>
+</html>
+
+```
+
+### We can also find the class by ID 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/9.png?raw=true"/>
+        </p>
+html
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Console Object</h1>
+<div class="container">
+
+  <button id="click">Click Me</button>
+</div>
+<div id = "firstContainer" class="container">
+  <p>This is a paragraph</p>
+</div>
+<h2>The log() Method</h2>
+
+<p>Remember to open the console (Press F12) before you click "Run".</p>
+
+<script>
+console.log("Hello world!");
+</script>
+
+</body>
+</html>
+
+
+```
+javascript
+
+```javascript
+firstContainer
+```

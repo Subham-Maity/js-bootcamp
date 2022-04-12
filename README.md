@@ -194,7 +194,24 @@ javascript
 ```javascript
 firstContainer
 ```
-
+###  A small piece of code that you place into your website
 <p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/9.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/10.png?raw=true"/>
+        </p>
+
+```javascript
+firstContainer.innerHTML = "Hello Xam";
+```
+
+```javascript
+firstContainer.innerHTML = "<b>Hello Xam you are bold now</b>";
+```
+
+###  Get Element by tag name 
+
+```javascript
+document.getElementsByTagName('h1')
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
         </p>

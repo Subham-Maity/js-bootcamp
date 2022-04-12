@@ -112,7 +112,8 @@ console.log("Hello world!");
 
 ## Overview
 
-### emmet abbreviations vscode
+### Emmet abbreviations vscode
+
 Dot(.) means class and # means ID
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/4.png?raw=true"/>
@@ -157,7 +158,7 @@ console.log("Hello world!");
 
 ```
 
-### We can also find the class by ID 
+### Find the class by ID 
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/9.png?raw=true"/>
@@ -195,7 +196,9 @@ javascript
 ```javascript
 firstContainer
 ```
-###  A small piece of code that you place into your website
+### Display Something
+
+####  A small piece of code that you place into your website
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/10.png?raw=true"/>
         </p>
@@ -217,6 +220,9 @@ document.getElementsByTagName('h1')
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
         </p>
 
+
+### Find Specific Heading Element
+
 We can control HTML  using JS 
 
 <p align="center">
@@ -226,7 +232,11 @@ We can control HTML  using JS
 ```javascript
 document.getElementsByTagName('h1')[0]
 ```
+
+### FontSize Control
+
 We can control CSS also using JS 
+
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/13.png?raw=true"/>
         </p>
@@ -235,6 +245,7 @@ We can control CSS also using JS
 ```javascript
 document.getElementsByTagName('h1')[0].style.fontSize = "99px"
 ```
+### Background Color Control 
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/14.png?raw=true"/>
@@ -245,6 +256,8 @@ document.getElementsByTagName('h1')[0].style.fontSize = "99px"
 document.getElementsByTagName('h1')[0].style.background = "red"
 
 ```
+### Visibility (Hide)
+
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/15.png?raw=true"/>
         </p>
@@ -252,7 +265,7 @@ document.getElementsByTagName('h1')[0].style.background = "red"
 ```javascript
 document.getElementsByTagName ('h1')[0].style.visibility = "hidden" 
 ```
-
+### Display (none)
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/16.png?raw=true"/>
         </p>

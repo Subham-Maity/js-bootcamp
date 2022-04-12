@@ -12,11 +12,21 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ## Chapters
 *******
 ### Level 1 (Newbie)
-  * [Basic info:](#basic-info) 
-  * [Display an alert box:](#display-an-alert-box)
-  * [Console log()](#console-log)
-  * [Simple Calculation](#simple-calculation) 
-  * [VS Code and Browser Overview](#overview)
+  * [**Basic info:**](#basic-info) 
+  * [**Display an alert box:**](#display-an-alert-box)
+  * [**Console log()**](#console-log)
+  * [**Simple Calculation**](#simple-calculation) 
+  * [**VS Code and Browser Overview**](#overview)
+    * [Emmet abbreviations vscode](#emmet-abbreviations-vscode)  
+    * [Find the class by ID](#find-the-class-by-id)
+    * [Display Something](#display-something)
+    * [Get Element by tag name](#get-element-by-tag-name)
+    * [Find Specific Heading Element](#find-specific-heading-element)
+    * [FontSize Control](#fontsize-control)
+    * [Background Color Control](#background-color-control)
+    * [Visibility (Hide)](#visibility-hide)
+    * [Display (none)](#display-none)
+    
 
 ***********
 ### Level 2 

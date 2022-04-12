@@ -276,3 +276,18 @@ don't worry we will discuss everything this is just an overview
 <p align="center">
         <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>
+
+### Ok ! Can you tell me where we use our JS in the HTML ? 
+
+#### look at the HTML code above and just try to find out from the js file 
+
+
+Ok lemme tell you....hmm...
+
+Between  script tag like this 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>
+        </p>
+
+

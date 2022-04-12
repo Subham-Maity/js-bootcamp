@@ -216,7 +216,24 @@ document.getElementsByTagName('h1')
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
         </p>
 
+We can control HTML  using JS 
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/12.png?raw=true"/>
+        </p>
+
+```javascript
+document.getElementsByTagName('h1')[0]
+```
+We can control CSS also using JS 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/13.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName('h1')[0].style.fontSize = "99px"
+```
 
 don't worry we will discuss everything this is just an overview 
 

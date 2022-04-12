@@ -11,7 +11,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended!
 ## Chapters
 *******
-* [**Level 1 (Newbie)**](#level-1)
+### Level 1 (Newbie)
   * [Basic info:](#basic-info) 
   * [Display an alert box:](#display-an-alert-box)
   * [Console log()](#console-log)
@@ -19,11 +19,12 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [VS Code and Browser Overview](#overview)
 
 ***********
+### Level 2 
+  * [JS in HTML :](#js-in-html)
+  
 
 
 
-
-# Level 1 
 
 ## Basic info
 
@@ -277,6 +278,8 @@ don't worry we will discuss everything this is just an overview
         <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>
 
+## JS in HTML 
+
 ### Ok ! Can you tell me where we use our JS in the HTML ? 
 
 #### look at the HTML code above and just try to find out from the js file 
@@ -284,7 +287,7 @@ don't worry we will discuss everything this is just an overview
 
 Ok lemme tell you....hmm...
 
-Between  script tag like this 
+Between  script tag like this and always try to set this between body tag 
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>

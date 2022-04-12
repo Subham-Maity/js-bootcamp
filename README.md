@@ -235,11 +235,40 @@ We can control CSS also using JS
 document.getElementsByTagName('h1')[0].style.fontSize = "99px"
 ```
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/14.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName('h1')[0].style.background = "red"
+
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/15.png?raw=true"/>
+        </p>
+
+```javascript
+document.getElementsByTagName ('h1')[0].style.visibility = "hidden" 
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/16.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName ('h1')[0].style.display = "none" 
+```
+
+
 don't worry we will discuss everything this is just an overview 
 
 <p align="center">
         <img src="https://media2.giphy.com/media/Y4WQSe2EucDEEUCKWu/giphy.gif?cid=ecf05e47z2taqwawluo8owrz6282ma5xno8qf6rcjvqtqftn&rid=giphy.gif&ct=g"/>
         </p>
+
+
 
 
 # Level 2 

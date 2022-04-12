@@ -16,7 +16,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Display an alert box:](#display-an-alert-box)
   * [Console log()](#console-log)
   * [Simple Calculation](#simple-calculation) 
-  * [Simple VS Hacks](#simple-vs-hacks)
+  * [VS Code and Browser Overview](#overview)
 
 ***********
 
@@ -109,7 +109,7 @@ console.log("Hello world!");
         </p>
 
 
-## Simple Vs hacks 
+## Overview
 
 ### emmet abbreviations vscode
 Dot(.) means class and # means ID
@@ -214,4 +214,19 @@ document.getElementsByTagName('h1')
 ```
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
+        </p>
+
+
+
+don't worry we will discuss everything this is just an overview 
+
+<p align="center">
+        <img src="https://media2.giphy.com/media/Y4WQSe2EucDEEUCKWu/giphy.gif?cid=ecf05e47z2taqwawluo8owrz6282ma5xno8qf6rcjvqtqftn&rid=giphy.gif&ct=g"/>
+        </p>
+
+
+# Level 2 
+
+<p align="center">
+        <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>

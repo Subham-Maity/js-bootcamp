@@ -344,5 +344,5 @@ The correct way to write the console message is
         </p>
 
 ```javascript
-document.warn("this is document write")
+console.warn("this is document write")
 ```

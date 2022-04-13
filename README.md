@@ -316,7 +316,7 @@ Between  script tag like this and always try to set this between body tag
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>
         </p>
 
-
+## Console
 ### write HTML to the document
 
 document. write() is used to write HTML to the document using Javascript. console. log() is used to log or display something to the Javascript console.
@@ -326,7 +326,7 @@ document. write() is used to write HTML to the document using Javascript. consol
         </p>
 
 ```javascript
-document.write("this is document write")
+document.write("this is document write");
 ```
 ### Display the warning messages on the console
 
@@ -344,5 +344,21 @@ The correct way to write the console message is
         </p>
 
 ```javascript
-console.warn("this is document write")
+console.warn("this is document write");
 ```
+
+### display an error message on the console
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/21.png?raw=true"/>
+        </p>
+
+```javascript
+console.error("This is an error");
+```
+
+### Clear the console 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/22.png?raw=true"/>
+        </p>

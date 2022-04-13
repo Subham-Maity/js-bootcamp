@@ -390,7 +390,8 @@ console.assert(4==(6-8))
 console.assert(4==4)
 ```
 
-### Console.log print anything 
+### Console.log print anything(string number addition) 
+
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/26.png?raw=true"/>
         </p>

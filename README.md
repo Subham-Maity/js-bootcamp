@@ -408,3 +408,7 @@ you can make another js file and write all code there and just link that to your
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/27.png?raw=true"/>
         </p>
 
+
+In HTML 
+
+

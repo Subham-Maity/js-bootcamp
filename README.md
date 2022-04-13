@@ -408,6 +408,13 @@ you can make another js file and write all code there and just link that to your
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/27.png?raw=true"/>
         </p>
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/28.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/29.png?raw=true"/>
+        </p>
 
 In HTML
 
@@ -428,3 +435,8 @@ console.log("Hello world!");
 console.log("Hello World", 4+6, "Another log");
 ```
 
+It remains same don't worry 
+
+<p align="center">
+        <img src="https://c.tenor.com/3a4B4YgXxIkAAAAi/dont-worry-worry.gif"/>
+        </p>

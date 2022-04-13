@@ -316,7 +316,7 @@ Between  script tag like this and always try to set this between body tag
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>
         </p>
 
-## Console
+## Console API [ More Info [Here](https://developer.mozilla.org/en-US/docs/Web/API/Console_API) ]
 ### write HTML to the document
 
 document. write() is used to write HTML to the document using Javascript. console. log() is used to log or display something to the Javascript console.
@@ -370,3 +370,16 @@ console.error("This is an error");
 ```javascript
 console.clear()
 ```
+
+
+### Console.assert(4==6)
+
+The console.assert() method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/24.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/25.png?raw=true"/>
+        </p>

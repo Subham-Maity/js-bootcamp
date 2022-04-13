@@ -330,5 +330,19 @@ document.write("this is document write")
 ```
 ### Display the warning messages on the console
 
+This is Wrong
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/19.png?raw=true"/>
+        </p>
 
 
+The correct way to write the console message is 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/20.png?raw=true"/>
+        </p>
+
+```javascript
+document.warn("this is document write")
+```

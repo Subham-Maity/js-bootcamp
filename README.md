@@ -383,3 +383,9 @@ The console.assert() method writes an error message to the console if the assert
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/25.png?raw=true"/>
         </p>
+
+```javascript
+console.assert(4==6)
+console.assert(4==(6-8))
+console.assert(4==4)
+```

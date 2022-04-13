@@ -409,6 +409,22 @@ you can make another js file and write all code there and just link that to your
         </p>
 
 
-In HTML 
+In HTML
 
+```html
+<script src="index.js"></script> 
+
+```
+In Javascript
+
+```javascript
+console.log("Hello world!");
+
+// document.write("this is document write");
+// console.warning("this is warning");
+// console.warn("this is document write");
+// console.error("This is an error");
+// console.clear
+console.log("Hello World", 4+6, "Another log");
+```
 

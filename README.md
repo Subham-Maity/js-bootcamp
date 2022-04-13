@@ -317,5 +317,18 @@ Between  script tag like this and always try to set this between body tag
         </p>
 
 
+### write HTML to the document
+
+document. write() is used to write HTML to the document using Javascript. console. log() is used to log or display something to the Javascript console.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/18.png?raw=true"/>
+        </p>
+
+```javascript
+document.write("this is document write")
+```
+### Display the warning messages on the console
+
 
 

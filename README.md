@@ -119,6 +119,215 @@ console.log("Hello world!");
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
         </p>
 
+### Console.log():-
+
+This method is used to log(print) the output to the console. We can put anything inside the log(). 
+It can be an array, object, string, boolean, etc.
+
+Example:-
+```javascript
+console.log('Subham');  
+console.log(1); 
+console.log(true); 
+console.log(null); ;  
+console.log([1, 2, 3]); // array inside log
+console.log({name:"Subham", language:"JavaScript", tutorial:1});
+```
+Output:-
+
+
+### Console.table ():-
+
+To generate a table inside a console, we use console.table() method. The input must be an array or an object which will be displayed as a table. In the example, we provide the object as an input.
+
+Example:-
+```javascript
+console.table({name:"Subham", language:"JavaScript", tutorial:2});
+```
+
+Output:-
+
+
+
+
+
+
+
+### Console.assert():-
+
+This method writes a message to the console that the assertion failed and the message we provide as a parameter, but only if an expression evaluates to false. If the expression is true, then nothing will happen.
+
+Example:-
+
+```javascript
+console.assert(0>1, "Expression is false")
+```
+Output:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+
+### Console.warn():-
+
+This method is used to log a warning message to the console. By default, the warning message will be highlighted with yellow color.
+
+Example:-
+
+```javascript
+console.warn("This is a warning");
+```
+
+Output:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+
+### Console.clear():-
+It is used to clear the console. The console will be cleared. In the case of Chrome, a simple overlayed text will be printed on the console.
+
+Example:-
+
+```javascript
+console.clear();
+```
+
+Output:-
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+### Console.time() and Console.timeEnd():-
+With the help of console.time() and console.timeEnd() we can find the amount of time spend by a code on execution.
+
+Example:-
+
+```javascript
+console.time();
+for (i = 0; i < 100; i++) {
+  // code
+}
+console.timeEnd();
+```
+Output:-
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+### Console.error():-
+Used to log error message to the console. Useful in the testing of code. By default, the error message will be highlighted with red color.
+
+Example:-
+
+```javascript
+console.error("This is a simple error");
+```
+
+
+Output:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+### Console.count():-
+The console.count() method is used to count the number that the function hit by this counting method.
+
+Example:-
+
+```javascript
+for (i = 0; i<4; i++) {
+    console.count(i);
+  }
+
+```
+
+
+Output:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+### Console.group() and Console.groupEnd():-
+group() and groupEnd() methods of the console object allow us to group contents in a separate block, indented. Just like the time() and the timeEnd(), they also accept the label, again of the same value.
+
+Example:-
+
+```javascript
+console.group('simple'); 
+console.log('Grouped'); 
+console.groupEnd('simple'); 
+console.log('new section');
+
+```
+
+Output:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+
+### Custom Console logs:-
+If the user has even a little idea about CSS, they can add Styling to the console logs to make logs Custom. The Syntax for it is to add the CSS styling as a parameter to the logs, which will replace %c in the logs as shown in the example below:
+
+Example:-
+
+```javascript
+const spacing = '8px'; 
+const mystyle =  
+`padding: ${spacing}; background-color: white; color: blue ; font-style:
+italic; border: 1px solid black dotted; font-size: 2em;`; 
+console.log('%cCode With Harry', mystyle);
+```
+
+Output:-
+
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p>
+
+
+
+
+
+
+
+
+
+
 
 ## Overview
 
@@ -144,6 +353,8 @@ Dot(.) means class and # means ID
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/8.png?raw=true"/>
         </p>
+
+
 
 ```html
 <!DOCTYPE html>

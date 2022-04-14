@@ -30,7 +30,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 
 ***********
 ### Level 2 
-  * [JS in HTML :](#js-in-html)
+ 
   
 
 
@@ -80,6 +80,151 @@ Try it on HTML(Live Server)
 
 </html>
 ```
+
+# Console API
+
+## JS in HTML
+
+### Ok ! Can you tell me where we use our JS in the HTML ?
+
+#### look at the HTML code above and just try to find out from the js file
+
+
+Ok lemme tell you....hmm...
+
+Between  script tag like this and always try to set this between body tag
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>
+        </p>
+
+## Console API [ More Info [Here](https://developer.mozilla.org/en-US/docs/Web/API/Console_API) ]
+
+### write HTML to the document
+
+document. write() is used to write HTML to the document using Javascript. console. log() is used to log or display something to the Javascript console.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/18.png?raw=true"/>
+        </p>
+
+```javascript
+document.write("this is document write");
+```
+### Display the warning messages on the console
+
+This is Wrong
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/19.png?raw=true"/>
+        </p>
+
+
+The correct way to write the console message is
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/20.png?raw=true"/>
+        </p>
+
+```javascript
+console.warn("this is document write");
+```
+
+### display an error message on the console
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/21.png?raw=true"/>
+        </p>
+
+```javascript
+console.error("This is an error");
+```
+
+### Clear the console
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/22.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/23.png?raw=true"/>
+        </p>
+
+```javascript
+console.clear()
+```
+
+
+### Console.assert(4==6)
+
+The console.assert() method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/24.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/25.png?raw=true"/>
+        </p>
+
+```javascript
+console.assert(4==6)
+console.assert(4==(6-8))
+console.assert(4==4)
+```
+
+### Console.log print anything(string number addition)
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/26.png?raw=true"/>
+        </p>
+
+```javascript
+console.log("Hello World", 4+6, "Another log");
+```
+
+## Different ways to write JavaScript
+
+you can make another js file and write all code there and just link that to your HTMl
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/27.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/28.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/29.png?raw=true"/>
+        </p>
+
+In HTML
+
+```html
+<script src="index.js"></script> 
+
+```
+In Javascript
+
+```javascript
+console.log("Hello world!");
+
+// document.write("this is document write");
+// console.warning("this is warning");
+// console.warn("this is document write");
+// console.error("This is an error");
+// console.clear
+console.log("Hello World", 4+6, "Another log");
+```
+
+It remains same don't worry
+
+<p align="center">
+        <img src="https://c.tenor.com/3a4B4YgXxIkAAAAi/dont-worry-worry.gif"/>
+        </p>
+
+
 ## Console log()
 The log() method writes (logs) a message to the console.
 
@@ -119,7 +264,7 @@ console.log("Hello world!");
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
         </p>
 
-### Console.log():-
+### Console.log() (all):-
 
 This method is used to log(print) the output to the console. We can put anything inside the log(). 
 It can be an array, object, string, boolean, etc.
@@ -135,6 +280,9 @@ console.log({name:"Subham", language:"JavaScript", tutorial:1});
 ```
 Output:-
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/30.png?raw=true"/>
+        </p>
 
 ### Console.table ():-
 
@@ -147,6 +295,9 @@ console.table({name:"Subham", language:"JavaScript", tutorial:2});
 
 Output:-
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/31.png?raw=true"/>
+        </p>
 
 
 
@@ -162,11 +313,7 @@ Example:-
 ```javascript
 console.assert(0>1, "Expression is false")
 ```
-Output:-
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
 
 
 
@@ -182,11 +329,7 @@ Example:-
 console.warn("This is a warning");
 ```
 
-Output:-
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
 
 
 
@@ -201,12 +344,10 @@ Example:-
 console.clear();
 ```
 
-Output:-
 
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
+
+
 
 
 
@@ -227,7 +368,7 @@ Output:-
 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/32.png?raw=true"/>
         </p>
 
 
@@ -243,17 +384,6 @@ console.error("This is a simple error");
 ```
 
 
-Output:-
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
-
-
-
-
-
-
 ### Console.count():-
 The console.count() method is used to count the number that the function hit by this counting method.
 
@@ -267,11 +397,6 @@ for (i = 0; i<4; i++) {
 ```
 
 
-Output:-
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
 
 
 
@@ -288,11 +413,7 @@ console.log('new section');
 
 ```
 
-Output:-
 
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
 
 
 
@@ -314,10 +435,6 @@ console.log('%cCode With Harry', mystyle);
 Output:-
 
 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
-        </p>
 
 
 
@@ -512,142 +629,3 @@ don't worry we will discuss everything this is just an overview
         <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>
 
-## JS in HTML 
-
-### Ok ! Can you tell me where we use our JS in the HTML ? 
-
-#### look at the HTML code above and just try to find out from the js file 
-
-
-Ok lemme tell you....hmm...
-
-Between  script tag like this and always try to set this between body tag 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/17.png?raw=true"/>
-        </p>
-
-## Console API [ More Info [Here](https://developer.mozilla.org/en-US/docs/Web/API/Console_API) ]
-### write HTML to the document
-
-document. write() is used to write HTML to the document using Javascript. console. log() is used to log or display something to the Javascript console.
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/18.png?raw=true"/>
-        </p>
-
-```javascript
-document.write("this is document write");
-```
-### Display the warning messages on the console
-
-This is Wrong
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/19.png?raw=true"/>
-        </p>
-
-
-The correct way to write the console message is 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/20.png?raw=true"/>
-        </p>
-
-```javascript
-console.warn("this is document write");
-```
-
-### display an error message on the console
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/21.png?raw=true"/>
-        </p>
-
-```javascript
-console.error("This is an error");
-```
-
-### Clear the console 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/22.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/23.png?raw=true"/>
-        </p>
-
-```javascript
-console.clear()
-```
-
-
-### Console.assert(4==6)
-
-The console.assert() method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/24.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/25.png?raw=true"/>
-        </p>
-
-```javascript
-console.assert(4==6)
-console.assert(4==(6-8))
-console.assert(4==4)
-```
-
-### Console.log print anything(string number addition) 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/26.png?raw=true"/>
-        </p>
-
-```javascript
-console.log("Hello World", 4+6, "Another log");
-```
-
-## Different ways to write JavaScript 
-
-you can make another js file and write all code there and just link that to your HTMl
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/27.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/28.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/29.png?raw=true"/>
-        </p>
-
-In HTML
-
-```html
-<script src="index.js"></script> 
-
-```
-In Javascript
-
-```javascript
-console.log("Hello world!");
-
-// document.write("this is document write");
-// console.warning("this is warning");
-// console.warn("this is document write");
-// console.error("This is an error");
-// console.clear
-console.log("Hello World", 4+6, "Another log");
-```
-
-It remains same don't worry 
-
-<p align="center">
-        <img src="https://c.tenor.com/3a4B4YgXxIkAAAAi/dont-worry-worry.gif"/>
-        </p>

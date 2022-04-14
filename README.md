@@ -28,7 +28,27 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
     * [Background Color Control](#background-color-control)
     * [Visibility (Hide)](#visibility-hide)
     * [Display (none)](#display-none)
-
+* [**Console API**](#console-api)
+    * [JS in HTML](#js-in-html)
+    * [write HTML to the document](#write-html-to-the-document)
+    * [Display the warning messages on the console](#display-an-error-message-on-the-console)
+    * [display an error message on the console](#display-an-error-message-on-the-console)
+    * [Clear the console](#clear-the-console)
+    * [Console.assert(4==6)](#consoleassert46)
+    * [Console.log print anything(string number addition)](#consolelog-print-anythingstring-number-addition)
+    * [Different ways to write JavaScript](#different-ways-to-write-javascript)
+    * [Console log(hello world)](#console-loghello-world)
+    * [Simple Calculation](#simple-calculation)
+    * [Console.log() (Different Type):-](#consolelog-different-type-)
+    * [Console.table ():-](#consoletable--)
+    * [Console.assert():-](#consoleassert-)
+    * [Console.warn():-](#consolewarn-)
+    * [Console.clear():-](#consoleclear-)
+    * [Console.time() and Console.timeEnd():-](#consoletime-and-consoletimeend-)
+    * [Console.error():-](#consoleerror-)
+    * [Console.count():-](#consolecount-)
+    * [Custom Console logs:-](#custom-console-logs-)
+    
 
     
 

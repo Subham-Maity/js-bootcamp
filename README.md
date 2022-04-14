@@ -11,13 +11,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ### Help us improve this guide - Fork, Pull Requests, Shares and Likes are recommended!
 ## Chapters
 *******
+*******
+*******
 ### Level 1 (Newbie)
-  * [**Basic info:**](#basic-info) 
-  * [**Display an alert box:**](#display-an-alert-box)
-  * [**Console log()**](#console-log)
-  * [**Simple Calculation**](#simple-calculation) 
-  * [**VS Code and Browser Overview**](#overview)
-    * [Emmet abbreviations vscode](#emmet-abbreviations-vscode)  
+
+* [**Basic info:**](#basic-info) 
+
+
+* [**VS Code and Browser Overview**](#overview)
+    * [Emmet abbreviations vscode](#emmet-abbreviations-vscode)
     * [Find the class by ID](#find-the-class-by-id)
     * [Display Something](#display-something)
     * [Get Element by tag name](#get-element-by-tag-name)
@@ -26,6 +28,8 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
     * [Background Color Control](#background-color-control)
     * [Visibility (Hide)](#visibility-hide)
     * [Display (none)](#display-none)
+
+
     
 
 ***********

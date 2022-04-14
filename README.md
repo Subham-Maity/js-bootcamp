@@ -32,7 +32,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 ### Level 2 
  
   
-
+**********
 
 
 
@@ -80,6 +80,182 @@ Try it on HTML(Live Server)
 
 </html>
 ```
+## Overview
+
+### Emmet abbreviations vscode
+
+Dot(.) means class and # means ID
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/4.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/5.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/6.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/7.png?raw=true"/>
+        </p>
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/8.png?raw=true"/>
+        </p>
+
+
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Console Object</h1>
+<div class="container">
+
+    <button id="click">Click Me</button>
+</div>
+<h2>The log() Method</h2>
+
+<p>Remember to open the console (Press F12) before you click "Run".</p>
+
+<script>
+console.log("Hello world!");
+</script>
+
+</body>
+</html>
+
+```
+
+### Find the class by ID
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/9.png?raw=true"/>
+        </p>
+html
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Console Object</h1>
+<div class="container">
+
+  <button id="click">Click Me</button>
+</div>
+<div id = "firstContainer" class="container">
+  <p>This is a paragraph</p>
+</div>
+<h2>The log() Method</h2>
+
+<p>Remember to open the console (Press F12) before you click "Run".</p>
+
+<script>
+console.log("Hello world!");
+</script>
+
+</body>
+</html>
+
+
+```
+javascript
+
+```javascript
+firstContainer
+```
+### Display Something
+
+####  A small piece of code that you place into your website
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/10.png?raw=true"/>
+        </p>
+
+```javascript
+firstContainer.innerHTML = "Hello Xam";
+```
+
+```javascript
+firstContainer.innerHTML = "<b>Hello Xam you are bold now</b>";
+```
+
+###  Get Element by tag name
+
+```javascript
+document.getElementsByTagName('h1')
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
+        </p>
+
+
+### Find Specific Heading Element
+
+We can control HTML  using JS
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/12.png?raw=true"/>
+        </p>
+
+```javascript
+document.getElementsByTagName('h1')[0]
+```
+
+### FontSize Control
+
+We can control CSS also using JS
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/13.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName('h1')[0].style.fontSize = "99px"
+```
+### Background Color Control
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/14.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName('h1')[0].style.background = "red"
+
+```
+### Visibility (Hide)
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/15.png?raw=true"/>
+        </p>
+
+```javascript
+document.getElementsByTagName ('h1')[0].style.visibility = "hidden" 
+```
+### Display (none)
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/16.png?raw=true"/>
+        </p>
+
+
+```javascript
+document.getElementsByTagName ('h1')[0].style.display = "none" 
+```
+
+
+don't worry we will discuss everything this is just an overview
+
+
+<p align="center">
+        <img src="https://media2.giphy.com/media/Y4WQSe2EucDEEUCKWu/giphy.gif?cid=ecf05e47z2taqwawluo8owrz6282ma5xno8qf6rcjvqtqftn&rid=giphy.gif&ct=g"/>
+        </p>
+
+
 
 # Console API
 
@@ -225,7 +401,7 @@ It remains same don't worry
         </p>
 
 
-## Console log()
+## Console log(hello world)
 The log() method writes (logs) a message to the console.
 
 The log() method is useful for testing purposes.
@@ -264,7 +440,7 @@ console.log("Hello world!");
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
         </p>
 
-### Console.log() (all):-
+### Console.log() (Different Type):-
 
 This method is used to log(print) the output to the console. We can put anything inside the log(). 
 It can be an array, object, string, boolean, etc.
@@ -432,193 +608,10 @@ italic; border: 1px solid black dotted; font-size: 2em;`;
 console.log('%cCode With Harry', mystyle);
 ```
 
-Output:-
 
 
 
 
-
-
-
-
-
-
-
-
-
-## Overview
-
-### Emmet abbreviations vscode
-
-Dot(.) means class and # means ID
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/4.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/5.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/6.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/7.png?raw=true"/>
-        </p>
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/8.png?raw=true"/>
-        </p>
-
-
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>The Console Object</h1>
-<div class="container">
-
-    <button id="click">Click Me</button>
-</div>
-<h2>The log() Method</h2>
-
-<p>Remember to open the console (Press F12) before you click "Run".</p>
-
-<script>
-console.log("Hello world!");
-</script>
-
-</body>
-</html>
-
-```
-
-### Find the class by ID 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/9.png?raw=true"/>
-        </p>
-html
-
-```html
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>The Console Object</h1>
-<div class="container">
-
-  <button id="click">Click Me</button>
-</div>
-<div id = "firstContainer" class="container">
-  <p>This is a paragraph</p>
-</div>
-<h2>The log() Method</h2>
-
-<p>Remember to open the console (Press F12) before you click "Run".</p>
-
-<script>
-console.log("Hello world!");
-</script>
-
-</body>
-</html>
-
-
-```
-javascript
-
-```javascript
-firstContainer
-```
-### Display Something
-
-####  A small piece of code that you place into your website
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/10.png?raw=true"/>
-        </p>
-
-```javascript
-firstContainer.innerHTML = "Hello Xam";
-```
-
-```javascript
-firstContainer.innerHTML = "<b>Hello Xam you are bold now</b>";
-```
-
-###  Get Element by tag name 
-
-```javascript
-document.getElementsByTagName('h1')
-```
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/11.png?raw=true"/>
-        </p>
-
-
-### Find Specific Heading Element
-
-We can control HTML  using JS 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/12.png?raw=true"/>
-        </p>
-
-```javascript
-document.getElementsByTagName('h1')[0]
-```
-
-### FontSize Control
-
-We can control CSS also using JS 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/13.png?raw=true"/>
-        </p>
-
-
-```javascript
-document.getElementsByTagName('h1')[0].style.fontSize = "99px"
-```
-### Background Color Control 
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/14.png?raw=true"/>
-        </p>
-
-
-```javascript
-document.getElementsByTagName('h1')[0].style.background = "red"
-
-```
-### Visibility (Hide)
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/15.png?raw=true"/>
-        </p>
-
-```javascript
-document.getElementsByTagName ('h1')[0].style.visibility = "hidden" 
-```
-### Display (none)
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/16.png?raw=true"/>
-        </p>
-
-
-```javascript
-document.getElementsByTagName ('h1')[0].style.display = "none" 
-```
-
-
-don't worry we will discuss everything this is just an overview 
-
-<p align="center">
-        <img src="https://media2.giphy.com/media/Y4WQSe2EucDEEUCKWu/giphy.gif?cid=ecf05e47z2taqwawluo8owrz6282ma5xno8qf6rcjvqtqftn&rid=giphy.gif&ct=g"/>
-        </p>
 
 
 

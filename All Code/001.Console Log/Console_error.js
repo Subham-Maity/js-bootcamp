@@ -1,0 +1,1 @@
+console.error("This is a simple error");

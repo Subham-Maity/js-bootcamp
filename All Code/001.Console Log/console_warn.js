@@ -1,0 +1,1 @@
+console.warn("this is document write");

@@ -1,0 +1,1 @@
+console.table({name:"Subham", language:"JavaScript", tutorial:2});

@@ -671,3 +671,26 @@ Before the advent of ES6, var declarations were used to declare a variable. The 
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/33.png?raw=true"/>
         </p>
+
+### double quotes single quote and backtick
+
+You can use single or double quotes:
+
+backtick (`) characters, allowing for multi-line strings, for string interpolation with embedded expressions, and for special constructs called tagged templates.
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/34.png?raw=true"/>
+        </p>
+
+
+
+```javascript
+//variable in JS 
+
+var name = 'subham';
+var name2 = "subham_Xam";
+var name3 = `subh'am_X"am`
+console.log(name);
+console.log(name2);
+console.log(name3);
+```

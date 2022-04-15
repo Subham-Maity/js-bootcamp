@@ -694,3 +694,19 @@ console.log(name);
 console.log(name2);
 console.log(name3);
 ```
+
+**Another example**
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        </p> 
+
+```javascript
+//variable in JS
+
+var x = 5;
+var y = 6;
+var z = x + y;
+console.log(z);
+
+```

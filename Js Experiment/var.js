@@ -1,5 +1,4 @@
-//variable in JS 
-
+// Different example 
 var name = 'subham';
 var name2 = "subham_Xam";
 var name3 = `subh'am_X"am`

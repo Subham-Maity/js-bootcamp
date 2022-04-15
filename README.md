@@ -646,3 +646,28 @@ console.log('%cCode With Harry', mystyle);
         <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>
 
+# Variables: let, const & var in JavaScript
+## Intro
+As we know, that variable is the name of the storage location. When we want to save some data, we store it in a variable. In any programming language, we typically do lots of calculations. The calculation results are stored in the computer's memory. Just like human memory, the memory of the computer also consists of millions of cells. The calculated values are stored in these memory cells. To make the usage and retrieval of these values easy, these memory locations are given names. The names given to these locations are called variables.
+
+Data types in JavaScript are either Variables or Constants. ES6 has made major changes in JavaScript's syntax and has also brought new features. Initially, we used to declare variables with a keyword "var". However, ES6 has brought a new variable declaration keyword, "let" and "const."
+## Rules
+**Following are some rules while declaring a JavaScript variable:**
+
+1.A variable name must start with a letter (a to z or A to Z), underscore (_), or dollar( $ ) sign.
+
+2.A variable name cannot start with a number. After the first letter, we can use digits (0 to 9), for example, message1.
+
+3.JavaScript variables are case sensitive. For example, a and A are different variables.
+
+## Var:-
+
+Before the advent of ES6, var declarations were used to declare a variable. The properties of var is that it has visibility linked to the function to which it belongs. We can change its value, and it can be redeclared in the same scope. Scope means where these variables are available for use. There are two types of scope, local and global. Var declarations are globally scoped, and when they are defined inside a function, they are locally scoped.
+
+
+
+### Firstly, let's create a variable and store a name, then print it out (console)
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/33.png?raw=true"/>
+        </p>

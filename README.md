@@ -48,15 +48,29 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
     * [Console.error():-](#consoleerror-)
     * [Console.count():-](#consolecount-)
     * [Custom Console logs:-](#custom-console-logs-)
-    
+*******
 
-    
-
-***********
-### Level 2 
- 
+### Level 2 (Advance)
+* [**comments in JavaScript**](#comments-in-javascript)
+  * [Single line comments](#single-line-comments)
+  * [Multiline comments](#multiline-comments)
   
-**********
+* [**Variables: let, const & var in JavaScript**](#variables-let-const--var-in-javascript)
+  * [Intro](#intro)
+  * [Rules](#rules)
+  * [double quotes single quote and backtick](#double-quotes-single-quote-and-backtick)
+  * [Var](#var-)
+  * [Const](#const-)
+  * [Let](#let-)
+
+
+*******
+*******
+*******
+
+
+ 
+
 
 
 

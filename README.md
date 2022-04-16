@@ -714,6 +714,7 @@ console.log(z);
 ```
 
 ## Const:-
+Const is also introduced in ES6. It is a variable type assigned to data whose value cannot and will not be changed throughout the program. Const is more strict as compared to var and let. Const is also limited to the scope in which it operates. We declare const just like var and let. We use const when we are sure a variable will not be redeclared. The characteristic of const and their declarations are block-scoped, and they cannot be updated or redeclare.
 
 **A const variable cannot be reassigned like var** 
 
@@ -736,6 +737,10 @@ console.log(owenersName);
 
 ## Let:-
 
+The variable type let is introduced in ES6. It shares a lot of similarities with var, but unlike var, it has scope constraints. Its declaration and assignment are similar to var. The purpose of introducing let is to resolve all issues posed by variables scope, which developers face during development. The properties of let are that They have visibility linked to the block they belong with. We can change their values, but they cannot be redeclared in the same scope, unlike var.
+
+"let" helps us by making it easier to see where variables live in our code and make our code cleaner and easier to read.
+
 **The let keyword was introduced in ES6 (2015).**
 
 **Variables defined with let cannot be redeclare.**
@@ -747,24 +752,21 @@ console.log(owenersName);
 **Variables defined with let have Block Scope.**
 
 
-
-
-
-<p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
-        </p> 
-
 **remember if we just declare without initialize it's not fine :( you have to initialize ;**
 
-```javascript
-//const
-const owenersName = 'Subham';
-console.log(owenersName);
-owenersName = 'Xam'; //not possible
-console.log(owenersName);
+### Why let data is the output instead of var data ?
 
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/37.png?raw=true"/>
+        </p> 
+
+```javascript
+var city = 'Delhi'
+{
+let city =  'Mumbai';
+console.log(city);
+}
 ```
 
-
-
+because let have Block Scope so when you use console inside the parenthesis , console never go for global variable
 

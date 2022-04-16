@@ -734,6 +734,24 @@ console.log(owenersName);
 
 ```
 
+another example with array 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
+        </p> 
+
+```javascript
+//const
+const owenersName = 'Subham';
+console.log(owenersName);
+owenersName = 'Xam'; //not possible
+console.log(owenersName);
+
+```
+
+
+
+
 
 ## Let:-
 
@@ -796,12 +814,28 @@ Similarly, in this case also, the let data is changed inside the block, so conso
         </p> 
 
 ```javascript
-{
-    let city =  'Mumbai';
-    city = "Kerala"
-    console.log(city);
+var city = 'Delhi'
+
+    {
+        let city =  'Mumbai';
+        city = "Kerala"
     }
+        console.log(city);
+
 
 ```
 
-Similarly, in this case also, the let data is changed inside the block, so console just prints the changed data, and still it's not going for the global one var
+In this case , the let data is changed inside the block, but console is now outside the block, so it's going for the global one var
+
+
+### let experiments 
+
+```javascript
+let age = 25; // Number
+let name = "John"; // String
+let developer = true;// Boolean
+let location = null; // Null
+let task; // undefined
+let age = 50;
+console.log(age); // SyntaxError: identifier "age" has already been declared.
+```

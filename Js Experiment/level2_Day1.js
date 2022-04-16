@@ -43,20 +43,20 @@ console.log(city);
         console.log(city);
 
 // let All 
-// let age = 25; // Number
-// let name = "John"; // String
-// let developer = true;// Boolean
-// let location = null; // Null
-// let task; // undefined
-// // let age = 50;
-// console.log(age); // SyntaxError: identifier "age" has already been declared.
+let age = 25; // Number
+let name = "John"; // String
+let developer = true;// Boolean
+let location = null; // Null
+let task; // undefined
+// let age = 50;
+console.log(age); // SyntaxError: identifier "age" has already been declared.
 
 
 
 //const with array experiment 
 //we can't change the array but push the element  
 const arr1 = [12,23,12,53,3];
-arr1.push(45);
-arr1 = [25,226 , 23]
+arr1.push(45);//we can do this 
+arr1 = [25,226 , 23] //we can't do this 
 console.log(arr1);
 

@@ -646,6 +646,30 @@ console.log('%cCode With Harry', mystyle);
         <img src="https://c.tenor.com/xatLP2moOZIAAAAC/perq-ai-leasing-assistant.gif"/>
         </p>
 
+
+# comments in JavaScript
+
+## Single line comments
+To create a single line comment in JavaScript, we have to place two slashes "//" in front of the code or text that we want the interpreter to ignore. When we place these two slashes, all text will be ignored, until the next line. Single line comments are used for writing small notes in the program
+
+```javascript
+// This is a single line JavaScript comment
+```
+
+## Multiline comments
+Although a single line comment is quite useful, but when we want to comment the long segment of code, we have to use multiline comment.  Multiline comment begins with /* and ends with */.
+
+```javascript
+/*
+This is a Multiline Comment
+This is a Multiline Comment
+This is a Multiline Comment
+ */
+```
+
+
+
+
 # Variables: let, const & var in JavaScript
 ## Intro
 As we know, that variable is the name of the storage location. When we want to save some data, we store it in a variable. In any programming language, we typically do lots of calculations. The calculation results are stored in the computer's memory. Just like human memory, the memory of the computer also consists of millions of cells. The calculated values are stored in these memory cells. To make the usage and retrieval of these values easy, these memory locations are given names. The names given to these locations are called variables.
@@ -745,11 +769,10 @@ another example with array
         </p> 
 
 ```javascript
-//const
-const owenersName = 'Subham';
-console.log(owenersName);
-owenersName = 'Xam'; //not possible
-console.log(owenersName);
+const arr1 = [12,23,12,53,3];
+arr1.push(45);//we can do this 
+arr1 = [25,226 , 23] //we can't do this 
+console.log(arr1);
 
 ```
 
@@ -843,3 +866,4 @@ let task; // undefined
 let age = 50;
 console.log(age); // SyntaxError: identifier "age" has already been declared.
 ```
+

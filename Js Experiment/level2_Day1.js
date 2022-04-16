@@ -22,16 +22,23 @@ console.log(owenersName);
 //Experiment with let 
 //type 1
 var city = 'Delhi'
-{
-let city =  'Mumbai';
-console.log(city);
-}
+// {
+// let city =  'Mumbai';
+// console.log(city);
+// }
 
-//type 2
-{
-    let city =  'Mumbai';
-    city = "Kerala"
-    console.log(city);
+// //type 2
+// {
+//     let city =  'Mumbai';
+//     city = "Kerala"
+//     console.log(city);
+//     }
+
+//type 3
+
+    {
+        let city =  'Mumbai';
+        city = "Kerala"
     }
-
+        console.log(city);
 

@@ -756,6 +756,7 @@ The variable type let is introduced in ES6. It shares a lot of similarities with
 
 ### Why let data is the output instead of var data ?
 
+#### Type 1
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/37.png?raw=true"/>
         </p> 
@@ -770,3 +771,37 @@ console.log(city);
 
 because let have Block Scope so when you use console inside the parenthesis , console never go for global variable
 
+#### Type 2
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/38.png?raw=true"/>
+        </p> 
+
+```javascript
+{
+    let city =  'Mumbai';
+    city = "Kerala"
+    console.log(city);
+    }
+
+```
+
+Similarly, in this case also, the let data is changed inside the block, so console just prints the changed data, and still it's not going for the global one var
+
+
+#### Type 3
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/39.png?raw=true"/>
+        </p> 
+
+```javascript
+{
+    let city =  'Mumbai';
+    city = "Kerala"
+    console.log(city);
+    }
+
+```
+
+Similarly, in this case also, the let data is changed inside the block, so console just prints the changed data, and still it's not going for the global one var

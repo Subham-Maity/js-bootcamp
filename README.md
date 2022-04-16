@@ -737,7 +737,11 @@ console.log(owenersName);
 another example with array 
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/40.png?raw=true"/>
+        </p> 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/41.png?raw=true"/>
         </p> 
 
 ```javascript

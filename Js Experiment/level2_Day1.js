@@ -57,5 +57,6 @@ console.log(city);
 //we can't change the array but push the element  
 const arr1 = [12,23,12,53,3];
 arr1.push(45);
+arr1 = [25,226 , 23]
 console.log(arr1);
 

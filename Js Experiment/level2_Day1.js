@@ -16,5 +16,16 @@ console.log(z);
 //const
 const owenersName = 'Subham';
 console.log(owenersName);
-owenersName = 'Xam';
-console.log(owenersName);
+// owenersName = 'Xam'; //not possible
+// console.log(owenersName);
+
+//Experiment with let 
+
+var city = 'Delhi'
+{
+let city =  'Mumbai';
+console.log(city);
+}
+
+
+

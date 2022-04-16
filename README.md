@@ -714,9 +714,57 @@ console.log(z);
 ```
 
 ## Const:-
-A const variable cannot be reassigned like var 
+
+**A const variable cannot be reassigned like var** 
+
 
 <p align="center">
         <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
         </p> 
+
+**remember if we just declare without initialize it's not fine :( you have to initialize ;**
+
+```javascript
+//const
+const owenersName = 'Subham';
+console.log(owenersName);
+owenersName = 'Xam'; //not possible
+console.log(owenersName);
+
+```
+
+
+## Let:-
+
+**The let keyword was introduced in ES6 (2015).**
+
+**Variables defined with let cannot be redeclare.**
+
+**Variables defined with let must be Declared before use.**
+
+**You cannot accidentally redeclare a variable**
+
+**Variables defined with let have Block Scope.**
+
+
+
+
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
+        </p> 
+
+**remember if we just declare without initialize it's not fine :( you have to initialize ;**
+
+```javascript
+//const
+const owenersName = 'Subham';
+console.log(owenersName);
+owenersName = 'Xam'; //not possible
+console.log(owenersName);
+
+```
+
+
+
 

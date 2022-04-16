@@ -12,3 +12,9 @@ var x = 5;
 var y = 6;
 var z = x + y;
 console.log(z);
+
+//const
+const owenersName = 'Subham';
+console.log(owenersName);
+owenersName = 'Xam';
+console.log(owenersName);

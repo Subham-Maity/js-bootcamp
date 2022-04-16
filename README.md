@@ -698,8 +698,10 @@ console.log(name3);
 **Another example**
 
 <p align="center">
-        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/3.png?raw=true"/>
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/35.png?raw=true"/>
         </p> 
+
+**remember if we just declare without initialize it's fine like var x;**
 
 ```javascript
 //variable in JS
@@ -710,3 +712,11 @@ var z = x + y;
 console.log(z);
 
 ```
+
+## Const:-
+A const variable cannot be reassigned like var 
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/javascript-tutorial-/blob/master/Image(ignore)/36.png?raw=true"/>
+        </p> 
+

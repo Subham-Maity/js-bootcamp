@@ -934,7 +934,7 @@ Dates
 Other types of objects...
 */
 //*** Primitive Datatype ***
-//1. String
+//String
 var name = "subham";
 console.log("String value is " + name);
 
@@ -1000,3 +1000,36 @@ object
 function
 object
 ```
+
+# JavaScript Type Conversion & Coercion
+we will learn about type conversions and coercion in JavaScript with examples. JavaScript is a programming language used to build dynamic web pages. In this language, we do not have to specify the data type when we declare it. We can assign new data of a different type to the same variable. Under some circumstances, JavaScript will perform automatic type conversion. Typecasting/Type conversion and coercion in simple terms means changing the data type of a value to another data type like an integer to string, Boolean into String, etc.
+##  JavaScript Type Conversion:- 
+When we convert one data type to another data type, this process is called type conversion. In JavaScript, there are two types of type conversion.
+## Explicit Conversion:-
+The type conversion that we manually do is known as explicit type conversion. In JavaScript, explicit type conversions are done using the built-in methods like String (), Number(), etc.
+### Number Conversion:-
+To convert Boolean values or numeric strings to numbers, we use the Number() i.e. an in-built method. Number() method in case of empty strings and null values return 0. If a string is an invalid number like having an alphabet in a string, the result will be NaN. 
+
+
+### The following are the rules of the numeric value:
+
+| **Value**        | **Return**                                                                                                                                                                                                                       |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| undefined        | NaN                                                                                                                                                                                                                              |
+| null             | 0                                                                                                                                                                                                                                |
+| true and false   | 1 and 0                                                                                                                                                                                                                          |
+| string           | Whitespaces from the start and end are removed. If the remaining string is empty, the result is 0.<br/> Otherwise, the number is “read” from the string.  If the string contain any alphabet like 67a90, it will give NaN error. |
+
+                                                                                                                                        |
+```javascript
+
+
+```
+
+### Output
+
+```text
+
+```
+
+

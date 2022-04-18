@@ -66,7 +66,12 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Primitive](#primitive)
   * [Reference](#reference)
   * [Difference between primitive and reference datatype](#difference-between-primitive-and-reference-datatype)
-  
+
+* [**JavaScript Type Conversion & Coercion**](#javascript-type-conversion--coercion)
+  * [JavaScript Type Conversion:-](#javascript-type-conversion-)
+    * [Explicit Conversion:-](#explicit-conversion-)
+      * [Number Conversion:-](#number-conversion-)
+
 
 *******
 *******

@@ -1010,7 +1010,6 @@ The type conversion that we manually do is known as explicit type conversion. In
 ### Number Conversion:-
 To convert Boolean values or numeric strings to numbers, we use the Number() i.e. an in-built method. Number() method in case of empty strings and null values return 0. If a string is an invalid number like having an alphabet in a string, the result will be NaN. 
 
-
 ### The following are the rules of the numeric value:
 
 | **Value**        | **Return**                                                                                                                                                                                                                       |
@@ -1020,16 +1019,11 @@ To convert Boolean values or numeric strings to numbers, we use the Number() i.e
 | true and false   | 1 and 0                                                                                                                                                                                                                          |
 | string           | Whitespaces from the start and end are removed. If the remaining string is empty, the result is 0.<br/> Otherwise, the number is “read” from the string.  If the string contain any alphabet like 67a90, it will give NaN error. |
 
-                                                                                                                                        |
+
 ```javascript
 
-
 ```
-
 ### Output
-
 ```text
 
 ```
-
-

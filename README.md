@@ -62,7 +62,11 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Var](#var-)
   * [Const](#const-)
   * [Let](#let-)
-
+* [**Primitive and Reference Types in JavaScript**](#primitive-and-reference-types-in-javascript)
+  * [Primitive](#primitive)
+  * [Reference](#reference)
+  * [Difference between primitive and reference datatype](#difference-between-primitive-and-reference-datatype)
+  
 
 *******
 *******

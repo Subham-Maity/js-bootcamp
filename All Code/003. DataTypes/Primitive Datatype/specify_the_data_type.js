@@ -1,0 +1,1 @@
+console.log("Data type is " + (typeof name));

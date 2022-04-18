@@ -880,4 +880,119 @@ let task; // undefined
 let age = 50;
 console.log(age); // SyntaxError: identifier "age" has already been declared.
 ```
+#  Primitive and Reference Types in JavaScript
 
+## Primitive 
+These data types are pretty simple, and are sometimes treated as the lowest level of implementation of a programming language. They are not objects, and do not have methods.
+
+- Numbers
+- String
+- Boolean
+- Null
+- Undefined
+- Symbols
+
+## Reference
+Reference data types, unlike primitive data types, are dynamic in nature. That is, they do not have a fixed size.
+
+Most of them are considered as objects, and therefore have methods. Examples of such data types include arrays, functions, collections, and all other types of objects.
+- Objects
+- Functions
+- Collections
+- Arrays
+- Dates
+- Other types of objects...
+
+## Difference between primitive and reference datatype
+- **JavaScript** stores the primitive value on the stack because the size of a primitive value is fixed. On the other hand, JavaScript stores the reference value on the heap because the size of the reference value is dynamic.
+
+- **One** of the most significant differences between primitive data and reference data is that, If the value is primitive, then we manipulate the actual valuestored in that variable. Whereas, If the value is of reference data type, we can manipulate that object's reference, rather than the actual object. It means a variable that stores an object is accessed by reference.
+
+```javascript
+/* Data types in JS
+Primitive Datatype stored in stack
+Primitive values (immutable datum represented directly at the lowest level of the language)
+Boolean type
+Null type
+Undefined type
+Number type
+BigInt type
+String type
+Symbol type
+
+
+Reference Datatype stored in heap
+Objects
+Functions
+Collections
+Arrays
+Dates
+Other types of objects...
+*/
+//*** Primitive Datatype ***
+//1. String
+var name = "subham";
+console.log("String value is " + name);
+
+//specify the data type
+console.log("Data type is " + (typeof name));
+
+// Numbers
+let marks = 34;
+let mark = 34.4;
+console.log("Data type is " + (typeof marks));
+console.log("Data type is " + (typeof mark));
+
+// Boolean
+let isDriver = true;
+console.log("Data type is " + (typeof isDriver));
+
+// Null
+let nullVar = null;
+console.log("Data type is " + (typeof nullVar));
+
+// Undefined
+let undef = undefined;
+console.log("Data type is " + (typeof undef));
+
+
+
+//*** Reference Data Types ***
+// Arrays
+let myArr = [1, 2, 3, 4, false, "string"];
+console.log("Data type is " + (typeof myArr));
+
+// Object Literals
+let setMarks = {
+    Subhasish: 89,
+    Shubham: 98,
+    Bikram: 88
+}
+console.log( typeof setMarks);
+
+// Function
+function findName() {
+}
+console.log( typeof findName);
+
+
+//Date
+let date = new Date();
+console.log( typeof date);
+```
+
+### Output
+
+```text
+String value is subham
+Data type is string
+Data type is number
+Data type is number
+Data type is boolean
+Data type is object
+Data type is undefined
+Data type is object
+object
+function
+object
+```

@@ -1332,9 +1332,13 @@ console.log(mystr1)
 This method Splits a string into substring to the specified delimiter, and returns an array containing each element. The argument “limit” is an integer that lets you specify the maximum number of elements to return.
 
 ```javascript
+//split
 var txt = "a,b,c,d,e";   // String
 txt.split(",");          // Split on commas
-txt.split(" ");          // Split on spaces
+console.log(txt)
+var txt2 = "m,n,o,p,q";
+txt2.split(" ");          // Split on spaces
+console.log(txt2)
 ```
 
 ### 9.substring(from, [to]):
@@ -1412,12 +1416,29 @@ It provides the ability to substitute part of the string for the values of varia
 It provides the ability to transform a string so that it is safe to include in HTML.
 
 ```javascript
-let firstName = 'Code With',
-        lastName = 'Harry';
-let greeting = `Welcome to ${firstName} ${lastName}`;
-console.log(greeting);
-//Welcome to Code With Harry
+//template literals
+//example 1
+let firstName = 'Code',
+        lastName = 'Xam';
+let greetings = `Welcome to ${firstName} ${lastName}`;
+console.log(greetings);
+//outputWelcome to Code Xam
+
+//example 2
+let fruit1 = 'Orange\'' ;
+let fruit2 = 'Apple';
+let myHtml = `Hello ${name}
+<h1> This is' "my" heading </h1>
+<p> You like ${fruit1} and $
+{fruit2}`;
+document.body.innerHTML = myHtml;
+
 ```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/43.png?raw=true"/>
+        </p>
+
+
 ### 16.Index Element Return
 Index Element return 
 
@@ -1444,11 +1465,18 @@ var myString = 'JavaScript!!!';
 console.log(myString.includes('Script!!!'));
 //output: true
 ```
-### 18.includes
-return true if it's available
+### 18.Replace
+Replace first occurrence 
 ```javascript
-//includes
-var myString = 'JavaScript!!!';
-console.log(myString.includes('Script!!!'));
-//output: true
+
+//replace
+var htmlt = "<h1> this is heading</h1>" + "<p> this is My para</p>";
+console.log(htmlt.replace('this', 'it'));
+//output - <h1> it is heading</h1><p> this is My para</p>
+
 ```
+
+
+
+
+

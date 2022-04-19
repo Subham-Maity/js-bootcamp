@@ -175,3 +175,59 @@ console.log(mystr1)
 
 
 
+
+
+
+
+
+
+
+//split
+var txt = "a,b,c,d,e";   // String
+txt.split(",");          // Split on commas
+console.log(txt)
+var txt2 = "m,n,o,p,q";
+txt2.split(" ");          // Split on spaces
+console.log(txt2)
+
+
+
+
+
+
+
+
+//replace
+var htmlt = "<h1> this is heading</h1>" + "<p> this is My para</p>";
+console.log(htmlt.replace('this', 'it'));
+//output - <h1> it is heading</h1><p> this is My para</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+//template literals
+//example 1
+let firstName = 'Code',
+    lastName = 'Xam';
+let greetings = `Welcome to ${firstName} ${lastName}`;
+console.log(greetings);
+//outputWelcome to Code Xam
+
+//example 2
+let fruit1 = 'Orange\'' ;
+let fruit2 = 'Apple';
+let myHtml = `Hello ${name}
+<h1> This is' "my" heading </h1>
+<p> You like ${fruit1} and $
+{fruit2}`;
+document.body.innerHTML = myHtml;
+

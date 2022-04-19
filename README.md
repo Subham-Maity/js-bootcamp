@@ -71,27 +71,30 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [JavaScript Type Conversion:-](#javascript-type-conversion-)
     * [Explicit Conversion:-](#explicit-conversion-)
       * [Number Conversion:-](#number-conversion-)
-  * [Experiments:-](#experiments-string)
+  * [Experiments:-](#experiments-type-casting)
 * [**Strings: Properties, Methods & Template Literals in JavaScript**](#strings-properties-methods--template-literals-in-javascript)
-  
- - **String Methods**
-  * [1. charAt(c):](#1-charatc)
-  * [2.concat(p1, p2):](#2concatp1-p2)
-  * [3.indexOf(substr, [start_from]):](#3indexofsubstr-start_from)
-  * [4.lastIndexOf(substr, [start_from]):](#4lastindexofsubstr-start_from)
-  * [5.slice(start, [end]):](#5slicestart-end)
-  * [6.split(delimiter, limit):](#6splitdelimiter-limit)
-  * [7.substring(from, [to]):](#7substringfrom-to)
-  * [8.toLowerCase():](#8tolowercase)
-  * [9.toUpperCase():](#9touppercase)
-  * [10.search(“str”):](#10searchstr)
-  * [11.substr() Method:](#11substr-method)
-  * [12.String length Method:](#12string-length-method)
-  * [13.JavaScript template literals:-](#13javascript-template-literals-)
-  * [14.Index Element Return](#14index-element-return)
-  * [15.endsWith](#15endswith)
-  * [16.includes](#16includes)
-  * [17.Replace](#17replace)
+
+
+*String Methods**
+* [1. charAt(c):](#1-charatc)
+* [2.concat(p1, p2):](#2concatp1-p2)
+* [3.indexOf(substr, [start_from]):](#3indexofsubstr-start_from)
+* [4.lastIndexOf(substr, [start_from]):](#4lastindexofsubstr-start_from)
+* [5.slice(start, [end]):](#5slicestart-end)
+* [6.split(delimiter, limit):](#6splitdelimiter-limit)
+* [7.substring(from, [to]):](#7substringfrom-to)
+* [8.toLowerCase():](#8tolowercase)
+* [9.toUpperCase():](#9touppercase)
+* [10.search(“str”):](#10searchstr)
+* [11.substr() Method:](#11substr-method)
+* [12.String length Method:](#12string-length-method)
+* [13.JavaScript template literals:-](#13javascript-template-literals-)
+* [14.Index Element Return](#14index-element-return)
+* [15.endsWith](#15endswith)
+* [16.includes](#16includes)
+* [17.Replace](#17replace)
+
+[Experiments:-](#experiment-string)
  
 
 *******

@@ -66,12 +66,12 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Primitive](#primitive)
   * [Reference](#reference)
   * [Difference between primitive and reference datatype](#difference-between-primitive-and-reference-datatype)
-
+  * [Experiments:-](#explicit-conversion-)
 * [**JavaScript Type Conversion & Coercion**](#javascript-type-conversion--coercion)
   * [JavaScript Type Conversion:-](#javascript-type-conversion-)
     * [Explicit Conversion:-](#explicit-conversion-)
       * [Number Conversion:-](#number-conversion-)
-
+  * [Experiments:-](#experiments-string)
 
 *******
 *******
@@ -916,7 +916,7 @@ Most of them are considered as objects, and therefore have methods. Examples of 
 - **JavaScript** stores the primitive value on the stack because the size of a primitive value is fixed. On the other hand, JavaScript stores the reference value on the heap because the size of the reference value is dynamic.
 
 - **One** of the most significant differences between primitive data and reference data is that, If the value is primitive, then we manipulate the actual valuestored in that variable. Whereas, If the value is of reference data type, we can manipulate that object's reference, rather than the actual object. It means a variable that stores an object is accessed by reference.
-
+## Experiments
 ```javascript
 /* Data types in JS
 Primitive Datatype stored in stack
@@ -1024,7 +1024,7 @@ To convert Boolean values or numeric strings to numbers, we use the Number() i.e
 | true and false   | 1 and 0                                                                                                                                                                                                                          |
 | string           | Whitespaces from the start and end are removed. If the remaining string is empty, the result is 0.<br/> Otherwise, the number is “read” from the string.  If the string contain any alphabet like 67a90, it will give NaN error. |
 
-
+## Experiments (Type Casting)
 ```javascript
 console.log('Welcome to level2_day3');
 
@@ -1403,4 +1403,11 @@ let firstName = 'Code With',
 let greeting = `Welcome to ${firstName} ${lastName}`;
 console.log(greeting);
 //Welcome to Code With Harry
+```
+
+
+## Experiments (String)
+
+```javascript
+
 ```

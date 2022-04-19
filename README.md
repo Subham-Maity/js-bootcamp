@@ -1318,10 +1318,14 @@ console.log(myString.lastIndexOf('N'));
 This method returns a substring of the string based on the "start" and "end" index , it will not include the "end" index itself. "End" argument is optional, and if none is specified, the slice includes all characters from "start" to end of string.
 
 ```javascript
+//slice
 var text="programming"
 var mystr= text.slice(0,4)
+var mystr1 = text.slice(-4)
 console.log(mystr)
+console.log(mystr1)
 //Output:- "prog"
+//Output:- "ming"
 ```
 
 ### 8.split(delimiter, limit):
@@ -1384,7 +1388,7 @@ var res = str.substr(7, 6);
 ```
 
 ### 14.String length Method:
-The method substr() is similar to slice(). The only difference is that the second parameter specifies the length of the extracted part.
+string length return
 
 ```javascript
 let html;
@@ -1414,10 +1418,37 @@ let greeting = `Welcome to ${firstName} ${lastName}`;
 console.log(greeting);
 //Welcome to Code With Harry
 ```
-
-
-## Experiments (String)
+### 16.Index Element Return
+Index Element return 
 
 ```javascript
+var myString = 'main';
 
+console.log(myString[2]) // start from 0 so
+```
+
+### 16.endsWith
+return true if it's available 
+```javascript
+//endsWith
+var myString = 'JavaScript!!!';
+console.log(myString.endsWith('Script!!!'));
+//output: true
+```
+
+### 17.includes 
+return true if it's available
+```javascript
+//includes
+var myString = 'JavaScript!!!';
+console.log(myString.includes('Script!!!'));
+//output: true
+```
+### 18.includes
+return true if it's available
+```javascript
+//includes
+var myString = 'JavaScript!!!';
+console.log(myString.includes('Script!!!'));
+//output: true
 ```

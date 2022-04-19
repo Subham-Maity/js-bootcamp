@@ -22,6 +22,7 @@ console.log(html);
 
 
 
+
 //concatenate Type- 2(concat)
 
 html = html.concat('this' , 'str')
@@ -37,34 +38,140 @@ console.log(html);
 
 
 
-
-
-
 //length
 console.log(html.length);
-//output - 55
+//output: 55
 
 
-// console.log(html.toLowerCase());
-// console.log(html.toUpperCase());
-// console.log(html);
 
 
-// console.log(html[1]);
-// console.log(html.indexOf('<'));
-// console.log(html.lastIndexOf('<'));
-// console.log(html.charAt(3));
-// console.log(html.endsWith('dsfsdfd'));
-// console.log(html.includes(' fg'));
-// console.log(html.substring(1,6));
-// console.log(html.slice(0, 4))
-// console.log(html.split('>'));
-// console.log(html.replace('this', 'it'));
 
-// let fruit1 = 'Orange\'';
-// let fruit2 = 'Apple';
-// let myHtml = `Hello ${name}
-//             <h1> This is "my" heading </h1>
-//             <p> You like ${fruit1} and ${fruit2}`;
-//
-// document.body.innerHTML = myHtml;
+
+
+
+
+
+//toLowerCase()
+var myString = 'JAVASCRIPT';
+myString = myString.toLowerCase();
+console.log(myString)
+//output: javascript
+
+
+
+
+
+
+
+
+
+
+//toUpperCase()
+var myString = 'javascript';
+myString = myString.toUpperCase();
+console.log(myString)
+//output: JAVASCRIPT
+
+
+
+
+
+
+
+
+
+//index element return
+var myString = 'main';
+console.log(myString[2]) // start from 0 so
+//output: i
+
+
+
+
+
+
+
+
+//indexOf
+
+//indexOf(char/substring)
+var str3="Hi, my name is Sam!";
+var str4= str3.indexOf("locate");
+var str5= str3.indexOf("my");
+console.log(str4)
+console.log(str5)
+//Output: -1
+//Output: 4
+
+
+
+
+
+
+
+
+
+//charAt():
+var myString = 'JavaScript!!!';
+console.log(myString.charAt(7));
+//output: i
+
+
+
+
+
+
+
+
+
+
+//endsWith
+var myString = 'JavaScript!!!';
+console.log(myString.endsWith('Script!!!'));
+//output: true
+
+
+
+
+
+//includes
+var myString = 'JavaScript!!!';
+console.log(myString.includes('Script!!!'));
+//output: true
+
+
+
+
+
+
+
+
+
+//substring
+//substring(from, [to])
+var myString = 'javascript Programming';
+myString = myString.substring(0,10);
+console.log(myString)
+//output: javascript
+
+
+
+
+
+
+
+
+
+
+
+//slice
+var text="programming"
+var mystr= text.slice(0,4)
+var mystr1 = text.slice(-4)
+console.log(mystr)
+console.log(mystr1)
+//Output:- "prog"
+//Output:- "ming"
+
+
+

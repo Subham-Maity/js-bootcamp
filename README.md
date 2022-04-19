@@ -1284,28 +1284,7 @@ var str2 = str1.indexOf("locate");
 //Output: -1
 ```
 
-### 4.indexOf(substr, [start_from]):
-This method Searches and returns the index number of the searched character within the string. If not found, it will return -1 . “Start_from” is an optional argument specifying the position within string to begin the search. Default is 0.
-
-```javascript
-//indexOf(char/substring)
-var str1="Hi, my name is Sam!";
-var str2 = str1.indexOf("locate");
-//Output: -1
-```
-
-### 5.indexOf(substr, [start_from]):
-This method Searches and returns the index number of the searched character within the string. If not found, it will return -1 . “Start_from” is an optional argument specifying the position within string to begin the search. Default is 0.
-
-
-```javascript
-//indexOf(char/substring)
-var str1="Hi, my name is Sam!";
-var str2 = str1.indexOf("locate");
-//Output: -1
-```
-
-### 6.lastIndexOf(substr, [start_from]):
+### 4.lastIndexOf(substr, [start_from]):
 This method searches and  returns the index number of the searched character within the string. This method will return the index of the last occurrence of a specified text in a string.If the character or string is not found, -1 is returned. "Start_from" is an optional argument specifying the position within string to begin the search. Default is string.length-1
 
 ```javascript
@@ -1314,7 +1293,7 @@ console.log(myString.lastIndexOf('N'));
 //output: 11
 ```
 
-### 7.slice(start, [end]):
+### 5.slice(start, [end]):
 This method returns a substring of the string based on the "start" and "end" index , it will not include the "end" index itself. "End" argument is optional, and if none is specified, the slice includes all characters from "start" to end of string.
 
 ```javascript
@@ -1328,7 +1307,7 @@ console.log(mystr1)
 //Output:- "ming"
 ```
 
-### 8.split(delimiter, limit):
+### 6.split(delimiter, limit):
 This method Splits a string into substring to the specified delimiter, and returns an array containing each element. The argument “limit” is an integer that lets you specify the maximum number of elements to return.
 
 ```javascript
@@ -1341,7 +1320,7 @@ txt2.split(" ");          // Split on spaces
 console.log(txt2)
 ```
 
-### 9.substring(from, [to]):
+### 7.substring(from, [to]):
 This method will return the characters in a string between “from” and “to” indexes. It will not include “to” itself. “To” argument is optional, and if omitted, up to the end of the string is assumed.
 
 ```javascript
@@ -1352,7 +1331,7 @@ console.log(myString)
 //output: javascript
 ```
 
-### 10.toLowerCase():
+### 8.toLowerCase():
 
 
 ```javascript
@@ -1363,7 +1342,7 @@ console.log(myString)
 //output: javascript
 ```
 
-### 11.toUpperCase():
+### 9.toUpperCase():
 
 
 ```javascript
@@ -1374,7 +1353,7 @@ console.log(myString)
 //output: JAVASCRIPT
 ```
 
-### 12.search(“str”):
+### 10.search(“str”):
 The method searches a string for a specified value and returns the position of the match:
 
 ```javascript
@@ -1382,7 +1361,7 @@ var str = "Welcome to programming World!!";
 var pos = str.search("programming");
 ```
 
-### 13.substr() Method:
+### 11.substr() Method:
 The method substr() is similar to slice(). The only difference is that the second parameter specifies the length of the extracted part.
 
 ```javascript
@@ -1391,7 +1370,7 @@ var res = str.substr(7, 6);
 // Output: Banana
 ```
 
-### 14.String length Method:
+### 12.String length Method:
 string length return
 
 ```javascript
@@ -1401,7 +1380,7 @@ console.log(html.length);
 ```
 
 
-### 15.JavaScript template literals:-
+### 13.JavaScript template literals:-
 
 Prior to ES6, we use single quotes (') or double quotes (") to wrap a string literal. At that time, the strings have very limited functionality. To help us in solving more complex problems, ES6 template literals provide the syntax that allows you to work with strings in a much cleaner way. In ES6, we can create a template literal by wrapping the string in backticks as follows:
 
@@ -1439,7 +1418,7 @@ document.body.innerHTML = myHtml;
         </p>
 
 
-### 16.Index Element Return
+### 14.Index Element Return
 Index Element return 
 
 ```javascript
@@ -1448,7 +1427,7 @@ var myString = 'main';
 console.log(myString[2]) // start from 0 so
 ```
 
-### 16.endsWith
+### 15.endsWith
 return true if it's available 
 ```javascript
 //endsWith
@@ -1457,7 +1436,7 @@ console.log(myString.endsWith('Script!!!'));
 //output: true
 ```
 
-### 17.includes 
+### 16.includes 
 return true if it's available
 ```javascript
 //includes
@@ -1465,7 +1444,7 @@ var myString = 'JavaScript!!!';
 console.log(myString.includes('Script!!!'));
 //output: true
 ```
-### 18.Replace
+### 17.Replace
 Replace first occurrence 
 ```javascript
 

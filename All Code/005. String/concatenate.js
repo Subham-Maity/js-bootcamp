@@ -22,3 +22,9 @@ console.log(html);
 html = html.concat('this' , 'str')
 console.log(html);
 //output - <h1> this is heading</h1><p> this is My para</p>thisstr
+
+
+var str1="JavaScript"
+var str2=str1.concat(" is","awesome")
+console.log(str2);
+//Output: JavaScript is awesome

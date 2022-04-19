@@ -1,19 +1,50 @@
 console.log('Welcome to level2_day4');
 //output-Welcome to level2_day4
 
+
+
+
 //concatenate
-const name = 'Harry';
-const greeting = 'Good Morning';
-console.log(greeting + ' ' + name);
 
 //concatenate Type- 1
-let html;
-html  = "<h1> this is heading</h1>"+ "<p> this is My para</p>";
 
-//concatenate Type- 2
-html = html.concat('this', ' str2');
+//example 1
+const name = 'Subham';
+const greeting = 'Good Morning';
+console.log(greeting + ' ' + name);
+//output - Good Morning Subham
+
+//example 2
+let html;
+html  = "<h1> this is heading</h1>" + "<p> this is My para</p>";
 console.log(html);
-// console.log(html.length);
+//output - <h1> this is heading</h1><p> this is My para</p>
+
+
+
+//concatenate Type- 2(concat)
+
+html = html.concat('this' , 'str')
+console.log(html);
+//output - <h1> this is heading</h1><p> this is My para</p>thisstr
+
+
+
+
+
+
+
+
+
+
+
+
+
+//length
+console.log(html.length);
+//output - 55
+
+
 // console.log(html.toLowerCase());
 // console.log(html.toUpperCase());
 // console.log(html);
@@ -30,10 +61,10 @@ console.log(html);
 // console.log(html.split('>'));
 // console.log(html.replace('this', 'it'));
 
-let fruit1 = 'Orange\'';
-let fruit2 = 'Apple';
-let myHtml = `Hello ${name}
-            <h1> This is "my" heading </h1>
-            <p> You like ${fruit1} and ${fruit2}`;
-
-document.body.innerHTML = myHtml;
+// let fruit1 = 'Orange\'';
+// let fruit2 = 'Apple';
+// let myHtml = `Hello ${name}
+//             <h1> This is "my" heading </h1>
+//             <p> You like ${fruit1} and ${fruit2}`;
+//
+// document.body.innerHTML = myHtml;

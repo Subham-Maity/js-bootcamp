@@ -1383,7 +1383,17 @@ var res = str.substr(7, 6);
 // Output: Banana
 ```
 
-### 14.JavaScript template literals:-
+### 14.String length Method:
+The method substr() is similar to slice(). The only difference is that the second parameter specifies the length of the extracted part.
+
+```javascript
+let html;
+html  = "<h1> this is heading</h1>" + "<p> this is My para</p>";
+console.log(html.length);
+```
+
+
+### 15.JavaScript template literals:-
 
 Prior to ES6, we use single quotes (') or double quotes (") to wrap a string literal. At that time, the strings have very limited functionality. To help us in solving more complex problems, ES6 template literals provide the syntax that allows you to work with strings in a much cleaner way. In ES6, we can create a template literal by wrapping the string in backticks as follows:
 

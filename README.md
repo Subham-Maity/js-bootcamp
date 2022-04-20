@@ -1742,5 +1742,156 @@ m,n,o,p,q
 Welcome to Code Xam
 
 ```
+# Arrays and Objects In JavaScript:-
 
 
+Arrays are the objects in which we can store multiple values in a single variable. An array stores a sequential collection of elements of fix sizes. There are two syntaxes used for creating an empty array:
+```javascript
+let arr = new Array();
+let arr = [];
+```
+## Accessing array elements:-
+Arrays are zero-indexed. The first element of an array is store at 0 indexes and the second element store at index 1 and so on. If we use an invalid index number it returns undefined.
+```javascript
+let arr = ['first element', 'second element', 'last element']
+console.log(arr[0]) // output ' first element'
+console.log(arr[1]) //  output ' second element'
+console.log(arr[arr.length - 1]) //  output ' last element'
+```
+
+## Method:-
+
+### Length of an Array
+The property length sets or returns the number of elements in an array.
+```javascript
+let age = [33,55,67,18]
+console.log(age.length)
+```
+### indexOf():-
+This method Search the array for an element and returns its position
+
+```javascript
+let std = ["Mark", "John", "Jonas", "Jack"];
+let a = std.indexOf("John");
+```
+###  sort():
+This method is used to sort the elements of an array
+
+```javascript
+let age = [33,55,67,18]
+let s_age= age.sort(age)
+//18,33,55,67
+```
+### reverse():
+This method is used to reverses the element of an array. The first array element becomes the last and the last becomes the first.
+
+```javascript
+let age = [33,55,67,18]
+let r_age= age.reverse(age)
+//18,67,55,33
+```
+### concat():
+This method will returns a new array comprised of this array joined with an other array or value
+
+```javascript
+let alpha = ["a", "b", "c"];
+let numeric = [1, 2, 3];
+var alphaNumeric = alpha.concat(numeric); // a,b,c,1,2,3
+```
+Here are some methods which are used to modify an array. Remember that, when we modify an array, we are modifying the original array.
+### push():
+This method is used to add an item to the end of an Array
+
+```javascript
+let fruits = ["Banana", "Orange", "Apple"];
+let len = fruits.push('Mango')
+// ["Apple", "Banana", "Orange", "Mango"]
+```
+
+### pop():-
+This method is used to remove an item from the end of an Array
+
+```javascript
+let last = fruits.pop() // remove Mango (from the end)
+["Apple", "Banana", "Orange"]
+```
+
+###  shift():-
+This method is used to remove an item from the beginning of an Array
+
+```javascript
+let first = fruits.shift() // remove Apple from the front
+// ["Banana", "Orange"]
+```
+
+### unshift():-
+This method is used to add an item to the beginning of an Array
+
+```javascript
+let newLength = fruits.unshift('Strawberry') // add to the front
+// ["Strawberry", "Banana", "Orange"]
+```
+
+### splice():
+This method is used to remove an item by index position
+
+```javascript
+let removedItem = fruits.splice(pos, 1) // this is how to remove an item
+// ["Strawberry", "Orange"]
+```
+
+##  JavaScript Object:-
+In JavaScript, Object is a non-primitive data type. The object is like other variables, but the only difference is that an object holds multiple values, arrays, functions etc. We create an object with figure brackets {…} with an optional list of properties. A property is a "key: value" pair, where the key is a string/ property name, and value can be anything.
+
+The syntax of creating object are following:-
+```javascript
+let user = new Object(); // "object constructor" syntax
+let user = {}; // "object literal" syntax
+```
+
+### Example :-
+
+
+```javascript
+let user = { 
+  name: "Harry", // by key "name" store value "Harry"
+  age: 25, // by key "age" store value 25
+  language: “JavaScript” // by key "language" store value “ JavaScript”
+};
+```
+In the user object, there are three properties:
+
+- The first property has the name "name" and the value "Harry".
+- The second property has the name "age" and the value 25.
+- The third one has the name "language" and the value "JavaScript".
+
+## The syntax for accessing the property of an object is:
+
+## The dot notation (.)
+The syntax of dot notation to access a property of an object is:
+```javascript
+objectName.property
+```
+For example, to access the "name" property of the user object, we use the following expression:
+### Array-like notation ( []):
+The syntax to access the value of an object’s property via the bracket notation is:
+
+```javascript
+objectName['propertyName'];
+```
+For example:
+
+```javascript
+console.log(user['name']);
+console.log(user['age']);
+```
+To change the value of a property, you use the assignment operator. For example:
+```javascript
+user.age = 27;
+```
+## Experiment(Arrays and objects)
+
+
+```javascript
+
+```

@@ -1839,6 +1839,14 @@ This method is used to remove an item by index position
 let removedItem = fruits.splice(pos, 1) // this is how to remove an item
 // ["Strawberry", "Orange"]
 ```
+### isArray():
+This method is used to check it's array or not
+
+```javascript
+let isArray = [33,55,67,18]
+console.log(Array.isArray(isArray));//output:-true
+console.log(Array.isArray('subham'));//output:-false
+```
 
 ##  JavaScript Object:-
 In JavaScript, Object is a non-primitive data type. The object is like other variables, but the only difference is that an object holds multiple values, arrays, functions etc. We create an object with figure brackets {…} with an optional list of properties. A property is a "key: value" pair, where the key is a string/ property name, and value can be anything.
@@ -1853,11 +1861,17 @@ let user = {}; // "object literal" syntax
 
 
 ```javascript
-let user = { 
-  name: "Harry", // by key "name" store value "Harry"
-  age: 25, // by key "age" store value 25
-  language: “JavaScript” // by key "language" store value “ JavaScript”
-};
+//Object Create
+let myObj = {
+  name: 'Subham',
+  channel: 'CodeXam',
+  isActive: true,
+  marks: [1,5,3,6]
+}
+console.log(myObj) //output:object prints
+console.log(myObj['channel'])//type1(if your object has space then use this) //output-CodeXam
+console.log(myObj.channel)//type 2 //output-CodeXam
+console.log(myObj.isActive)//type 2 //true
 ```
 In the user object, there are three properties:
 

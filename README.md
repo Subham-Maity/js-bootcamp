@@ -95,6 +95,24 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
 * [17.Replace](#17replace)
 
 [Experiments:-](#experiment-string)
+
+* [**Arrays and Objects In JavaScript**](#arrays-and-objects-in-javascript-)
+  * [**Accessing array elements:**](#accessing-array-elements-)
+  * [**Method**](#method-)
+    * [Length of an Array](#length-of-an-array)
+    * [indexOf](#indexof-)
+    * [sort](#sort)
+    * [reverse](#reverse)
+    * [concat](#concat)
+    * [push](#push)
+    * [pop](#pop-)
+    * [shift](#shift-)
+    * [unshift](#unshift-)
+    * [splice](#splice)
+    * [isArray](#isarray)
+  * [**JavaScript Object**](#javascript-object-)
+  * [**The syntax for accessing the property of an object is:**](#the-syntax-for-accessing-the-property-of-an-object-is)
+  * [**Experiment(Arrays and objects)**](#experimentarrays-and-objects)
  
 
 *******

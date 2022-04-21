@@ -122,6 +122,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [JavaScript Arithmetic Operators](#javascript-arithmetic-operators)
   * [JavaScript All Assignment Operators](#javascript-all-assignment-operators)
   * [JavaScript Operator Precedence Values](#javascript-operator-precedence-values)
+* [ **For,While & Do while Loops in JavaScript**](#for-while--do-while-loops-in-javascript)
+  * [The for Loop](#the-for-loop-)
+  * [The for… in Loop](#the-for-in-loop-)
+  * [The forEach Loop](#the-foreach-loop-)
+  * [while loop](#while-loop-)
+  * [do...while loop](#dowhile-loop-)
+  * [Breaking a Loop](#breaking-a-loop-)
+  * [Skipping an Iteration](#skipping-an-iteration-)
+  * [Experiments (loop )](#experiments-loop-)
   
 
 *******

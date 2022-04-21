@@ -1,0 +1,708 @@
+# Operators 
+<h2>JavaScript Assignment Operators</h2>
+<p>Assignment operators assign values to JavaScript variables.</p>
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:25%">Operator</th>
+<th>Example</th>
+<th>Same As</th>
+</tr>
+<tr>
+<td>=</td>
+<td>x = y</td>
+<td>x = y</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>x += y</td>
+<td>x = x + y</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>x -= y</td>
+<td>x = x - y</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>x *= y</td>
+<td>x = x * y</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>x /= y</td>
+<td>x = x / y</td>
+</tr>
+  <tr>
+<td>%=</td>
+<td>x %= y</td>
+<td>x = x % y</td>
+  </tr>
+<tr>
+<td>**=</td>
+<td>x **= y</td>
+<td>x = x ** y</td>
+</tr>
+</table>
+The addition assignment operator (+=) adds a value to a variable.
+
+<h2>JavaScript Comparison Operators</h2>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:12%">Operator</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>==</td>
+<td>equal to</td>
+</tr>
+<tr>
+<td>===</td>
+<td>equal value and equal type</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>not equal</td>
+</tr>
+<tr>
+<td>!==</td>
+<td>not equal value or not equal type</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>greater than</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>less than</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>greater than or equal to</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>less than or equal to</td>
+</tr>
+<tr>
+<td>?</td>
+<td>ternary operator</td>
+</tr>
+</table>
+
+<h2>JavaScript Logical Operators</h2>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:12%">Operator</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&amp;&amp;</td>
+<td>logical and</td>
+</tr>
+<tr>
+<td>||</td>
+<td>logical or</td>
+</tr>
+<tr>
+<td>!</td>
+<td>logical not</td>
+</tr>
+</table>
+
+<h2>JavaScript Type Operators</h2>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:30%">Operator</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>typeof</td>
+<td>Returns the type of a variable</td>
+</tr>
+<tr>
+<td>instanceof</td>
+<td>Returns true if an object is an instance of an object type</td>
+</tr>
+</table>
+
+<h2>JavaScript Bitwise Operators</h2>
+<p>Bit operators work on 32 bits numbers.</p>
+Any numeric operand in the operation is converted into a 32 bit number.
+The result is converted back to a JavaScript number.
+
+<div class="w3-responsive">
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:12%">Operator</th>
+<th style="width:25%">Description</th>
+<th>Example</th>
+<th>Same as</th>
+<th>Result</th>
+<th style="width:15%">Decimal</th>
+</tr>
+<tr>
+<td>&amp;</td>
+<td>AND</td>
+<td>5 &amp; 1</td>
+<td>0101 &amp; 0001</td>
+<td>0001</td>
+<td>&nbsp;1</td>
+</tr>
+<tr>
+<td>|</td>
+<td>OR</td>
+<td>5 | 1</td>
+<td>0101 | 0001</td>
+<td>0101</td>
+<td>&nbsp;5</td>
+</tr>
+<tr>
+<td>~</td>
+<td>NOT</td>
+<td>~ 5</td>
+<td>&nbsp;~0101</td>
+<td>1010</td>
+<td>&nbsp;10</td>
+</tr>
+<tr>
+<td>^</td>
+<td>XOR</td>
+<td>5 ^ 1</td>
+<td>0101 ^ 0001</td>
+<td>0100</td>
+<td>&nbsp;4</td>
+</tr>
+<tr>
+<td>&lt;&lt;</td>
+<td>left shift</td>
+<td>5 &lt;&lt; 1</td>
+<td>0101 &lt;&lt; 1</td>
+<td>1010</td>
+<td>&nbsp;10</td>
+</tr>
+<tr>
+<td>&gt;&gt;</td>
+<td>right shift</td>
+<td>5 &gt;&gt; 1</td>
+<td>0101 &gt;&gt; 1</td>
+<td>0010</td>
+<td>&nbsp; 2</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;</td>
+<td>unsigned right shift</td>
+<td>5 &gt;&gt;&gt; 1</td>
+<td>0101 &gt;&gt;&gt; 1</td>
+<td>0010</td>
+<td>&nbsp; 2</td>
+</tr>
+</table>
+
+<h2>JavaScript Arithmetic Operators</h2>
+<p>Arithmetic operators perform arithmetic on numbers (literals or variables).</p>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:25%">Operator</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>+</td>
+<td>Addition</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Subtraction</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplication</td>
+</tr>
+<tr>
+<td>**</td>
+<td>Exponentiation (<a href="js_2016.asp">ES2016</a>)</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Division</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Modulus (Remainder)</td>
+</tr>
+<tr>
+<td>++</td>
+<td>Increment</td>
+</tr>
+<tr>
+<td>--</td>
+<td>Decrement</td>
+</tr>
+</table>
+
+<h2>JavaScript Assignment Operators</h2>
+<p>Assignment operators assign values to JavaScript variables.</p>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th style="width:25%">Operator</th>
+<th>Example</th>
+<th>Same As</th>
+</tr>
+<tr>
+<td>=</td>
+<td>x = y</td>
+<td>x = y</td>
+</tr>
+<tr>
+<td>+=</td>
+<td>x += y</td>
+<td>x = x + y</td>
+</tr>
+<tr>
+<td>-=</td>
+<td>x -= y</td>
+<td>x = x - y</td>
+</tr>
+<tr>
+<td>*=</td>
+<td>x *= y</td>
+<td>x = x * y</td>
+</tr>
+<tr>
+<td>/=</td>
+<td>x /= y</td>
+<td>x = x / y</td>
+</tr>
+<tr>
+<td>%=</td>
+<td>x %= y</td>
+<td>x = x % y</td>
+</tr>
+<tr>
+<td>&lt;&lt;=</td>
+<td>x &lt;&lt;= y</td>
+<td>x = x &lt;&lt; y</td>
+</tr>
+<tr>
+<td>&gt;&gt;=</td>
+<td>x &gt;&gt;= y</td>
+<td>x = x &gt;&gt; y</td>
+</tr>
+<tr>
+<td>&gt;&gt;&gt;=</td>
+<td>x &gt;&gt;&gt;= y</td>
+<td>x = x &gt;&gt;&gt; y</td>
+</tr>
+<tr>
+<td>&amp;=</td>
+<td>x &amp;= y</td>
+<td>x = x &amp; y</td>
+</tr>
+<tr>
+<td>^=</td>
+<td>x ^= y</td>
+<td>x = x ^ y</td>
+</tr>
+<tr>
+<td>|=</td>
+<td>x |= y</td>
+<td>x = x | y</td>
+</tr>
+<tr>
+<td>**=</td>
+<td>x **= y</td>
+<td>x = x ** y</td>
+</tr>
+</table>
+
+
+<h2>JavaScript Operator Precedence Values</h2>
+
+<div class="w3-panel w3-warning">
+<p>Pale red entries indicates ECMAScript 2015 (ES6) or higher.</p>
+</div>
+
+<table class="ws-table-all">
+ <tr>
+  <th style="width:10%">Value</th>
+  <th style="width:15%">Operator</th>
+  <th>Description</th>
+  <th>Example</th>
+ </tr>
+ <tr>
+  <td>21</td>
+  <td>( )</td>
+  <td>Expression grouping</td>
+  <td>(3 + 4)</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>20</td>
+  <td>.</td>
+  <td>Member</td>
+  <td>person.name</td>
+ </tr>
+ <tr>
+  <td>20</td>
+  <td>[]</td>
+  <td>Member</td>
+  <td>person[&quot;name&quot;]</td>
+ </tr>
+ <tr>
+  <td>20</td>
+  <td>()</td>
+  <td>Function call</td>
+  <td>myFunction()</td>
+ </tr>
+ <tr>
+  <td>20</td>
+  <td>new</td>
+  <td>Create</td>
+  <td>new Date()</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>18</td>
+  <td>++</td>
+  <td>Postfix Increment</td>
+  <td>i++</td>
+ </tr>
+ <tr>
+  <td>18</td>
+  <td>--</td>
+  <td>Postfix Decrement</td>
+  <td>i--</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>17</td>
+  <td>++</td>
+  <td>Prefix Increment</td>
+  <td>++i</td>
+ </tr>
+ <tr>
+  <td>17</td>
+  <td>--</td>
+  <td>Prefix Decrement</td>
+  <td>--i</td>
+ </tr>
+ <tr>
+  <td>17</td>
+  <td>!</td>
+  <td>Logical not</td>
+  <td>!(x==y)</td>
+ </tr>
+ <tr>
+  <td>17</td>
+  <td>typeof</td>
+  <td>Type</td>
+  <td>typeof x</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr class="w3-pale-red">
+  <td>16</td>
+  <td>**</td>
+  <td>Exponentiation (ES2016)</td>
+  <td>10 ** 2</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>15</td>
+  <td>*</td>
+  <td>Multiplication</td>
+  <td>10 * 5</td>
+ </tr>
+ <tr>
+  <td>15</td>
+  <td>/</td>
+  <td>Division</td>
+  <td>10 / 5</td>
+ </tr>
+ <tr>
+  <td>15</td>
+  <td>%</td>
+  <td>Division Remainder</td>
+  <td>10 % 5</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>14</td>
+  <td>+</td>
+  <td>Addition</td>
+  <td>10 + 5</td>
+ </tr>
+ <tr>
+  <td>14</td>
+  <td>-</td>
+  <td>Subtraction</td>
+  <td>10 - 5</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>13</td>
+  <td>&lt;&lt;</td>
+  <td>Shift left</td>
+  <td>x &lt;&lt; 2</td>
+ </tr>
+ <tr>
+  <td>13</td>
+  <td>&gt;&gt;</td>
+  <td>Shift right</td>
+  <td>x &gt;&gt; 2</td>
+ </tr>
+ <tr>
+  <td>13</td>
+  <td>&gt;&gt;&gt;</td>
+  <td>Shift right (unsigned)</td>
+  <td>x &gt;&gt;&gt; 2</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>&lt;</td>
+  <td>Less than</td>
+  <td>x &lt; y&nbsp;</td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>&lt;=</td>
+  <td>Less than or equal</td>
+  <td>x &lt;= y</td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>&gt;</td>
+  <td>Greater than</td>
+  <td>x &gt; y</td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>&gt;=</td>
+  <td>Greater than or equal</td>
+  <td>x &gt;= y</td>
+ </tr>
+ <tr class="w3-pale-red">
+  <td>12</td>
+  <td>in</td>
+  <td>Property in Object</td>
+  <td>"PI" in Math</td>
+ </tr>
+ <tr class="w3-pale-red">
+  <td>12</td>
+  <td>instanceof</td>
+  <td>Instance of Object</td>
+  <td>instanceof Array</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>==</td>
+  <td>Equal</td>
+  <td>x == y</td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>===</td>
+  <td>Strict equal</td>
+  <td>x === y</td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>!=</td>
+  <td>Unequal</td>
+  <td>x != y</td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>!==</td>
+  <td>Strict unequal</td>
+  <td>x !== y</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>10</td>
+  <td>&amp;</td>
+  <td>Bitwise AND</td>
+  <td>x &amp; y</td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>^</td>
+  <td>Bitwise XOR</td>
+  <td>x ^ y</td>
+ </tr>
+ <tr>
+  <td>8</td>
+  <td>|</td>
+  <td>Bitwise OR</td>
+  <td>x | y</td>
+ </tr>
+ <tr>
+  <td>7</td>
+  <td>&amp;&amp;</td>
+  <td>Logical AND</td>
+  <td>x &amp;&amp; y</td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>||</td>
+  <td>Logical OR</td>
+  <td>x || y</td>
+ </tr>
+ <tr>
+  <td>5</td>
+  <td>??</td>
+  <td>Nullish Coalescing</td>
+  <td>x ?? y</td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>? :</td>
+  <td>Condition</td>
+  <td>? "Yes" : "No"</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>+=</td>
+  <td>Assignment</td>
+  <td>x += y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>/=</td>
+  <td>Assignment</td>
+  <td>x /= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>-=</td>
+  <td>Assignment</td>
+  <td>x -= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>*=</td>
+  <td>Assignment</td>
+  <td>x *= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>%=</td>
+  <td>Assignment</td>
+  <td>x %= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>&lt;&lt;=</td>
+  <td>Assignment</td>
+  <td>x &lt;&lt;= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>&gt;&gt;=</td>
+  <td>Assignment</td>
+  <td>x &gt;&gt;= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>&gt;&gt;&gt;=</td>
+  <td>Assignment</td>
+  <td>x &gt;&gt;&gt;= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>&amp;=</td>
+  <td>Assignment</td>
+  <td>x &amp;= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>^=</td>
+  <td>Assignment</td>
+  <td>x ^= y</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>|=</td>
+  <td>Assignment</td>
+  <td>x |= y</td>
+ </tr>
+ <tr>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+ </tr>
+ <tr class="w3-pale-red">
+  <td>2</td>
+  <td>yield</td>
+  <td>Pause Function</td>
+  <td>yield x</td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>,</td>
+  <td>Comma</td>
+  <td>5 , 6</td>
+ </tr>
+</table>

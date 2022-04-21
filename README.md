@@ -2999,3 +2999,134 @@ The result is converted back to a JavaScript number.
   <td>5 , 6</td>
  </tr>
 </table>
+
+# For, While & Do while Loops in JavaScript
+
+## The for Loop:-
+The for loop is used when we want to execute the set of statements for a certain number of times. This loop will repeat a block of code as long as a certain condition is met. Its syntax is:
+
+````js
+for(initialization; condition; increment) {
+    // Code to be executed
+ }
+````
+- **initialization:-** It is used to initialize the counter variables, for example, let i=0.
+
+
+- **Condition:-** The condition is evaluated at the beginning of each iteration. If it evaluates to true, the loop statements execute, and If it evaluates to false, the execution of the loop ends, i.e., i<100.
+
+
+- **Increment:-** it updates the loop counter with an incremented value value each time the loop runs for example i++;
+
+### Example of for loop:
+
+```js
+for(var i=1; i<=5; i++) {
+console.log(i);
+}
+```
+
+## The for… in Loop:-
+It is a special type of loop, used when we want to iterates over the properties of an object or the elements of an array. The syntax for using the for-in loop is:
+
+```js
+for(variable in object) {
+  // Code to be executed
+ }
+```
+The loop counter, i.e., variable in the for-in loop, is a string, not a number. It contains the name of the current property or the index of the current array element.
+
+The following example will show how to loop through all the properties of a JavaScript object.
+
+```js
+// An object with some properties 
+var person = {name: "Harry", language: "JavaScript", age: 20};
+// Loop through all the properties in the object  
+for(var i in person) {  
+console.log( i + " = " + person[i]); 
+}
+```
+
+## The forEach Loop:-
+In JavaScript, the  forEach is a type of loop that is used for Array method. With the help of forEach loop, we can execute a function on each item within an array. The function can only be used on Arrays, Sets, and Maps.
+
+```js
+const  alpha = ['a', 'b', 'c'];
+for (let i = 0; i < alpha.length; i++) {
+  console.log(alpha[i]);
+}
+```
+
+## while loop:-
+A while loop is used when we do not know how many times a certain block of code should execute. It evaluates the expression inside the parenthesis (). If the expression evaluates to true, the code inside the while loop is executed. Every time the expression is re-evaluated, the process continues until the expression evaluates to false. When the expression evaluates to false, the loop stops.
+
+The syntax of the while loop is:
+
+```js
+while (expression) {
+  // body of loop
+}
+```
+
+### For Example:-
+
+```js
+let i = 1, n = 100;
+while (i <= n) {
+  console.log(i);
+  i += 1;
+}
+```
+
+## do...while loop:-
+In this loop, the body inside the do statement is executed first. Then the condition is evaluated. If the condition evaluates to true, the body of the loop inside the do statement is executed again. This process continues until the condition evaluates to false. Then the loop stops.
+
+The syntax of do...while loop is:
+
+
+```js
+do {
+    // body of loop
+} while(condition)
+```
+
+### For Example:-
+```js
+let i = 1;
+let n =100;
+do {
+    console.log(i);
+    i++;
+} while(i <= n);
+```
+Note: do...while loop is similar to the while loop. The only difference is that in do…while loop, the body of loop is executed at least once.
+
+## Breaking a Loop:-
+Sometimes, we may want to end our loop before it reaches completion. By using break statement, we can accomplish this task. Here is an example:
+```js
+for (let i = 0; i < 100; i++) {
+ console.log(i);
+    if (i == 90) {
+        break;
+    }
+}
+```
+When the value of i equals 90, the break keyword stops the loop. 
+
+## Skipping an Iteration:-
+When we want the loop to skip its current iteration and move on to the next one we use “continue” keyword. Here is an example:
+
+```js
+let i = 10;
+for (let x = 1; x <=i; x++) {
+    if (x == 5) {
+        continue;
+    }}
+```
+As mentioned above, continue will stop the loop when x becomes equal to 5 and move on to the next iteration. In handling errors, continue keyword is also very useful when we want the loop to move on to the next item.
+
+## Experiments (loop )
+
+```js
+
+```

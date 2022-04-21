@@ -114,6 +114,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [**The syntax for accessing the property of an object is:**](#the-syntax-for-accessing-the-property-of-an-object-is)
   * [**Experiment(Arrays and objects)**](#experimentarrays-and-objects)
 * [**Operators**](#operators)
+  * [JavaScript Assignment Operators](#javascript-assignment-operators)  
+  * [JavaScript Comparison Operators](#javascript-comparison-operators)
+  * [JavaScript Logical Operators](#javascript-logical-operators)
+  * [JavaScript Type Operators](#javascript-type-operators)
+  * [JavaScript Bitwise Operators](#javascript-bitwise-operators)
+  * [JavaScript Arithmetic Operators](#javascript-arithmetic-operators)
+  * [JavaScript All Assignment Operators](#javascript-all-assignment-operators)
+  * [JavaScript Operator Precedence Values](#javascript-operator-precedence-values)
+  
 
 *******
 *******
@@ -2283,7 +2292,7 @@ switch (age) {
 
 
 # Operators 
-<h2>JavaScript Assignment Operators</h2>
+## JavaScript Assignment Operators
 <p>Assignment operators assign values to JavaScript variables.</p>
 <table class="ws-table-all notranslate">
 <tr>
@@ -2329,7 +2338,7 @@ switch (age) {
 </table>
 The addition assignment operator (+=) adds a value to a variable.
 
-<h2>JavaScript Comparison Operators</h2>
+## JavaScript Comparison Operators
 
 <table class="ws-table-all notranslate">
 <tr>
@@ -2374,7 +2383,7 @@ The addition assignment operator (+=) adds a value to a variable.
 </tr>
 </table>
 
-<h2>JavaScript Logical Operators</h2>
+## JavaScript Logical Operators
 
 <table class="ws-table-all notranslate">
 <tr>
@@ -2395,7 +2404,7 @@ The addition assignment operator (+=) adds a value to a variable.
 </tr>
 </table>
 
-<h2>JavaScript Type Operators</h2>
+## JavaScript Type Operators
 
 <table class="ws-table-all notranslate">
 <tr>
@@ -2412,7 +2421,7 @@ The addition assignment operator (+=) adds a value to a variable.
 </tr>
 </table>
 
-<h2>JavaScript Bitwise Operators</h2>
+## JavaScript Bitwise Operators
 <p>Bit operators work on 32 bits numbers.</p>
 Any numeric operand in the operation is converted into a 32 bit number.
 The result is converted back to a JavaScript number.
@@ -2485,7 +2494,7 @@ The result is converted back to a JavaScript number.
 </tr>
 </table>
 
-<h2>JavaScript Arithmetic Operators</h2>
+## JavaScript Arithmetic Operators
 <p>Arithmetic operators perform arithmetic on numbers (literals or variables).</p>
 
 <table class="ws-table-all notranslate">
@@ -2527,7 +2536,7 @@ The result is converted back to a JavaScript number.
 </tr>
 </table>
 
-<h2>JavaScript Assignment Operators</h2>
+## JavaScript All Assignment Operators
 <p>Assignment operators assign values to JavaScript variables.</p>
 
 <table class="ws-table-all notranslate">
@@ -2604,7 +2613,7 @@ The result is converted back to a JavaScript number.
 </table>
 
 
-<h2>JavaScript Operator Precedence Values</h2>
+## JavaScript Operator Precedence Values
 
 <div class="w3-panel w3-warning">
 <p>Pale red entries indicates ECMAScript 2015 (ES6) or higher.</p>

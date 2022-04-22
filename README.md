@@ -712,7 +712,7 @@ const spacing = '8px';
 const mystyle =  
 `padding: ${spacing}; background-color: white; color: blue ; font-style:
 italic; border: 1px solid black dotted; font-size: 2em;`; 
-console.log('%cCode With Harry', mystyle);
+console.log('%cCode Xam', mystyle);
 ```
 
 
@@ -1911,7 +1911,7 @@ console.log(myObj.isActive)//type 2 //true
 ```
 In the user object, there are three properties:
 
-- The first property has the name "name" and the value "Harry".
+- The first property has the name "name" and the value "Codexam".
 - The second property has the name "age" and the value 25.
 - The third one has the name "language" and the value "JavaScript".
 
@@ -3049,7 +3049,7 @@ The following example will show how to loop through all the properties of a Java
 
 ```js
 // An object with some properties 
-var person = {name: "Harry", language: "JavaScript", age: 20};
+var person = {name: "Subham", language: "JavaScript", age: 20};
 // Loop through all the properties in the object  
 for(var i in person) {  
 console.log( i + " = " + person[i]); 
@@ -3569,3 +3569,90 @@ The os of object is Ubuntu
 done
 
 ```
+
+# Functions in JavaScript
+
+A JavaScript function can be defined using the function keyword.
+
+There are mainly two advantages of JavaScript functions.
+
+- **Code reusability:** We can call a function several times whenever we need it.
+- **Less coding:** It reduces the line of code and makes our program compact.
+
+## Define a Function:-
+**There are two different ways to define a function in JavaScript:**
+
+**Function Declaration:-**
+A Function Declaration defines a named function. To create a function declaration, use the function keyword, and then write the function's name. When using function declarations, the function definition is hoisted. Thus the function is allowed to be used before it is defined. The syntax of the function declaration is as follows:
+
+```js
+function name(parameters){
+   //statements
+ }
+```
+
+Inside the function body, we can implement the logic. For example, the following print_message () function simply shows a message to the console:
+
+```js
+function print_message(message) {
+console.log(message);
+}
+print_message("Hello World");
+//Output: Hello World
+```
+In the body of the print_message() function, we call the console.log() function to output a message to the console.
+
+**Function Expressions:-**
+A Function Expressions defines a named or anonymous function. An anonymous function is a function that does not have any name. Function Expressions are not hoisted, and therefore we cannot call them before they are defined. In the example below, we are setting the anonymous function object equal to a variable. Following is the syntax of function expression :
+
+```js
+let variable_name = function(parameters){
+  // statements
+ }
+```
+**Example:-**
+
+```js
+let add=function(a, b) {
+    return a + b;
+}
+console.log(add(4,3));
+//Output: 7
+```
+
+## Returning a value:-
+JavaScript function returns undefined. See the following example:
+```js
+function print_message(message) {
+    console.log(message);
+}
+let result = say('Hello World');
+console.log('Result:', result);
+//Output:
+//Hello World
+//Result: undefined
+```
+
+To specify a return value for a function, use the return statement followed by an expression or a value, like this:
+
+return expression;
+
+Let's create a new function called get_distance:
+
+```js
+function get_Distance(speed, time) {
+      let dist = speed * time;
+      return dist;
+}
+```
+
+To call the get_Distance function, we can call it as part of initializing a variable:
+```js
+var myDistance = get_Distance(8, 5);
+```
+
+When the getDistance function gets called, it gets evaluated and returns a numerical value that is then assigned to the myDistance variable. That's all there is to it.
+
+## Key Takeaways:-
+we have learned that the function is a subprogram designed to perform a particular task. Functions are executed when they are called. This is known as invoking a function. Arguments can be passed into functions and used within the function. Functions always return a value. In JavaScript, if no return value is specified, the function will return undefined 
+

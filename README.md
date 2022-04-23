@@ -50,7 +50,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
     * [Custom Console logs:-](#custom-console-logs-)
 *******
 
-### Level 2 (Advance)
+### Level 2 (Basics)
 * [**comments in JavaScript**](#comments-in-javascript)
   * [Single line comments](#single-line-comments)
   * [Multiline comments](#multiline-comments)
@@ -135,9 +135,15 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Define a Function:-](#define-a-function-)
   * [Returning a value:-](#returning-a-value-)
   * [Key Takeaways:-](#key-takeaways-)
-  
-  
 
+### Level 3 (Advance)  
+
+
+
+
+
+
+*******
 *******
 *******
 *******
@@ -3899,5 +3905,321 @@ furniture 2
 9
 This is a codeXam ui 234
 
+
+```
+
+# Manipulating Websites Using JS Window Object
+We have focused on the basics of JavaScript like arrays, strings, objects, etc. In this tutorial, we will begin to make things happen on the screen, which is one of the main purposes of using JavaScript. Today we will study window object along with its properties and methods.
+
+## The Window Object
+
+The window object represents a window in the browser containing the DOM document. The browser automatically creates a window object. The window is not the object of the JavaScript. It is the object of the browser. A window can be the main window, a frameset, or even a new window created with JavaScript. The developers use the window object to close and open browser window, displaying alert and prompt dialogs.
+
+Window object has many properties and methods. The following are the few properties and methods of window object.
+
+## Window Object Properties
+The window object properties are the variables created inside the window object. We can access the properties of window object by using the syntax:
+
+```js
+window.propertyname
+```
+where property name is the name of the property.
+
+The following are the most popular window object properties:
+
+| **Properties** | **Explanation**                                                             |
+|----------------|-----------------------------------------------------------------------------|
+| width          | It specifies the initial width of the browser window.                       |
+| height         | It specifies the initial height of the browser window.                      |
+| innerWidth     | It specifies the initial width of the window content area                   |
+| innerHeight    | It specifies the initial height of the window content area                  |
+| outerWidth     | It specifies the initial width of the navigator window                      |
+| menubar        | It specifies whether the window should contain the browser menubar          |
+| location       | It specifies whether the window should contain the browser location/URL box |
+| scrollbars     | It hides or shows browser horizontal/vertical scrollbars                    |
+| top            | Specified the number of pixels from the top of the screen to the new window |
+
+<table class="ws-table-all notranslate">
+  <tr>
+    <th style="width:20%">Property</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="prop_win_closed.asp">closed</a></td>
+    <td>Returns a boolean true if a window is closed.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_console.asp">console</a></td>
+    <td>Returns the Console Object for the window.<br>
+    See also <a href="obj_console.asp">The Console Object</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_defaultstatus.asp">defaultStatus</a></td>
+    <td><span class="deprecated">Deprecated.</span></td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_document.asp">document</a></td>
+    <td>Returns the Document object for the window.<br>
+    See also <a href="dom_obj_document.asp">The Document Object</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_frameelement.asp">frameElement</a></td>
+    <td>Returns the frame in which the window runs.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_frames.asp">frames</a></td>
+    <td>Returns all window objects running in the window.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_history.asp">history</a></td>
+    <td>Returns the History object for the window.<br>
+    See also <a href="obj_history.asp">The History Object</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_innerheight.asp">innerHeight</a></td>
+    <td>Returns the height of the window's content area (viewport) including 
+    scrollbars</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_innerwidth.asp">innerWidth</a></td>
+    <td>Returns the width of a window's content area (viewport) including 
+    scrollbars</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_length.asp">length</a></td>
+    <td>Returns the number of &lt;iframe&gt; elements in the current window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_localstorage.asp">localStorage</a></td>
+    <td>Allows to save key/value pairs in a web browser. Stores the data with no expiration date</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_location.asp">location</a></td>
+    <td>Returns the Location object for the window.<br>
+    See also the <a href="obj_location.asp">The Location Object</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_name.asp">name</a></td>
+    <td>Sets or returns the name of a window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_navigator.asp">navigator</a></td>
+    <td>Returns the Navigator object for the window.<br>
+    See also <a href="obj_navigator.asp">The Navigator object</a>.</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_opener.asp">opener</a></td>
+    <td>Returns a reference to the window that created the window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_outerheight.asp">outerHeight</a></td>
+    <td>Returns the height of the browser window, including toolbars/scrollbars</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_outerwidth.asp">outerWidth</a></td>
+    <td>Returns the width of the browser window, including toolbars/scrollbars</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_pagexoffset.asp">pageXOffset</a></td>
+    <td>Returns the pixels the current document has been scrolled (horizontally) from the upper left corner of the window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_pagexoffset.asp">pageYOffset</a></td>
+    <td>Returns the pixels the current document has been scrolled (vertically) from the upper left corner of the window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_parent.asp">parent</a></td>
+    <td>Returns the parent window of the current window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_screen.asp">screen</a></td>
+    <td>Returns the Screen object for the window<br>
+    See also <a href="obj_screen.asp">The Screen object</a></td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_screenleft.asp">screenLeft</a></td>
+    <td>Returns the horizontal coordinate of the window relative to the screen</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_screentop.asp">screenTop</a></td>
+    <td>Returns the vertical coordinate of the window relative to the screen</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_screenx.asp">screenX</a></td>
+    <td>Returns the horizontal coordinate of the window relative to the screen</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_screeny.asp">screenY</a></td>
+    <td>Returns the vertical coordinate of the window relative to the screen</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_sessionstorage.asp">sessionStorage</a></td>
+    <td>Allows to save key/value pairs in a web browser. Stores the data for one 
+    session</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_scrollx.asp">scrollX</a></td>
+    <td>An alias of <a href="prop_win_pagexoffset.asp">pageXOffset</a></td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_scrolly.asp">scrollY</a></td>
+    <td>An alias of <a href="prop_win_pagexoffset.asp">pageYOffset</a></td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_self.asp">self</a></td>
+    <td>Returns the current window</td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_status.asp">status</a></td>
+    <td><span class="deprecated">Deprecated. Avoid using it.</span></td>
+  </tr>
+  <tr>
+    <td><a href="prop_win_top.asp">top</a></td>
+    <td>Returns the topmost browser window</td>
+  </tr>
+  </table>
+
+
+## Window Object Methods
+The window object methods are the functions that are created inside the Window Object. These methods are used to perform various actions on the browser window, such as how it displays a message or gets input from the user.
+
+Following are the some of the most commonly used window object methods:
+
+<table class="ws-table-all notranslate">
+  <tr>
+    <th style="width:20%">Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><a href="met_win_alert.asp">alert()</a></td>
+    <td>Displays an alert box with a message and an OK button</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_atob.asp">atob()</a></td>
+    <td>Decodes a base-64 encoded string</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_blur.asp">blur()</a></td>
+    <td>Removes focus from the current window</td>
+    </tr>
+  <tr>
+    <td><a href="met_win_btoa.asp">btoa()</a></td>
+    <td>Encodes a string in base-64</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_clearinterval.asp">clearInterval()</a></td>
+    <td>Clears a timer set with setInterval()</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_cleartimeout.asp">clearTimeout()</a></td>
+    <td>Clears a timer set with setTimeout()</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_close.asp">close()</a></td>
+    <td>Closes the current window</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_confirm.asp">confirm()</a></td>
+    <td>Displays a dialog box with a message and an OK and a Cancel button</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_focus.asp">focus()</a></td>
+    <td>Sets focus to the current window</td>
+  </tr>
+  <tr>
+    <td><a href="jsref_getcomputedstyle.asp">getComputedStyle()</a></td>
+    <td>Gets the current computed CSS styles applied to an element</td>
+  </tr>
+  <tr>
+    <td>getSelection()</td>
+    <td>Returns a Selection object representing the range of text selected by the user</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_matchmedia.asp">matchMedia()</a></td>
+    <td>Returns a MediaQueryList object representing the specified CSS media query string</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_moveby.asp">moveBy()</a></td>
+    <td>Moves a window relative to its current position</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_moveto.asp">moveTo()</a></td>
+    <td>Moves a window to the specified position</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_open.asp">open()</a></td>
+    <td>Opens a new browser window</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_print.asp">print()</a></td>
+    <td>Prints the content of the current window</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_prompt.asp">prompt()</a></td>
+    <td>Displays a dialog box that prompts the visitor for input</td>
+  </tr>
+  <tr>
+    <td>requestAnimationFrame()</td>
+    <td>Requests the browser to call a function to update an animation before 
+    the next repaint</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_resizeby.asp">resizeBy()</a></td>
+    <td>Resizes the window by the specified pixels</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_resizeto.asp">resizeTo()</a></td>
+    <td>Resizes the window to the specified width and height</td>
+  </tr>
+  <tr>
+    <td>scroll()</td>
+    <td><span class="deprecated">Deprecated.</span> This method has been replaced by the <a href="met_win_scrollto.asp">scrollTo()</a> method.</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_scrollby.asp">scrollBy()</a></td>
+    <td>Scrolls the document by the specified number of pixels</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_scrollto.asp">scrollTo()</a></td>
+    <td>Scrolls the document to the specified coordinates</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_setinterval.asp">setInterval()</a></td>
+    <td>Calls a function or evaluates an expression at specified intervals (in milliseconds)</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_settimeout.asp">setTimeout()</a></td>
+    <td>Calls a function or evaluates an expression after a specified number of milliseconds</td>
+  </tr>
+  <tr>
+    <td><a href="met_win_stop.asp">stop()</a></td>
+    <td>Stops the window from loading</td>
+    </tr>
+</table>
+
+### Example:-
+
+```js
+let a = window.innerWidth;
+let b = window.innerHeight;
+alert("Width: " + a + ", " + "Height: " + b);
+```
+
+### Result:-
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/44.png?raw=true"/>
+        </p>
+
+
+### Experiments (Manipulating Websites)
+
+```js
+
+```
+
+**output** 
+
+```text
 
 ```

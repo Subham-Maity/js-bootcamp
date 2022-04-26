@@ -135,7 +135,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Define a Function:-](#define-a-function-)
   * [Returning a value:-](#returning-a-value-)
   * [Key Takeaways:-](#key-takeaways-)
-
+*****
 ### Level 3 (Advance)  
 
 * [ **Manipulating Websites Using JS Window Object**](#manipulating-websites-using-js-window-object)
@@ -143,6 +143,13 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Window Object Properties](#window-object-properties)
   * [Window Object Methods](#window-object-methods)
   * [Experiments](#experiments-manipulating-websites)
+
+* [**Understanding DOM & Creating a Website Layout**](#understanding-dom--creating-a-website-layout)
+  * [DOM Properties](#dom-properties-)
+  * [Document Object Properties and Methods](#document-object-properties-and-methods)
+  * [Experiment](#experiment-understanding-dom--creating-a-website-layout)
+ 
+
 
 
 
@@ -4604,3 +4611,70 @@ document.property_name
     <td>Same as write(), but adds a newline character after each statement</td>
 </tr>
 </table>
+
+
+### Experiment (Understanding DOM & Creating a Website Layout)
+```js
+console.log('Welcome to day10.js');
+
+
+let a = document;
+// a = document.all;
+// a = document.body;
+// a = document.forms[0];
+// Array.from(a).forEach(function(element){
+//     console.log(element);
+// })
+// a = document.links[0];
+// a = document.links[0].href;
+
+```
+
+**Html**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="heading"> Welcome to Code With Harry</h1>
+    <div id="myfirst" class="child red good" id="first">child 1
+
+        <ul class="this">
+            <li class="childul">this</li>
+            <li class="childul">is</li>
+            <li class="childul">a</li>
+            <li class="childul">list </li>
+            <li class="childul">of my dreams</li>
+        </ul>
+    </div>
+    <div class="child">child 2</div>
+    <div class="child red">child 3</div>
+    <div class="child">child 4</div>
+    <form action="none.html" method="post">
+        <a href="https://github.com/Subham-Maity/js-bootcamp">Go to xam's repo</a>
+        <br>
+        <br>
+        Search this website: <input type="text" name="Hello" id="">
+        <input type="button" value="submit">
+    </form>
+</div>
+<br>
+<div class="no">this is a dummy div1</div>
+<div class="no">this is a dummy div2</div>
+<div class="no">this is a dummy div3</div>
+</body>
+<!--*** Note:- uncomment the line which js experiment file you wanna access *** -->
+
+<script src="level3_Day10.js"></script>
+</html>
+
+```
+**Note :-**
+- The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
+- Child nodes (or children) – elements that are direct children. In other words, they are nested exactly in the given one. For instance, <head> and <body> are children of <html> element. Descendants – all elements that are nested in the given one, including children, their children and so on

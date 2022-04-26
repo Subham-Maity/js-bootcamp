@@ -148,6 +148,7 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [DOM Properties](#dom-properties-)
   * [Document Object Properties and Methods](#document-object-properties-and-methods)
   * [Experiment](#experiment-understanding-dom--creating-a-website-layout)
+* [**WebPage Crawler In JavaScript**](#webpage-crawler-in-javascript)
  
 
 
@@ -4631,38 +4632,39 @@ let a = document;
 ```
 
 **Html**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
 </head>
 <body>
 <div class="container">
-    <h1 id="heading"> Welcome to Code With Harry</h1>
-    <div id="myfirst" class="child red good" id="first">child 1
+  <h1 id="heading"> Welcome to JSy</h1>
+  <div id="myfirst" class="child red good" id="first">child 1
 
-        <ul class="this">
-            <li class="childul">this</li>
-            <li class="childul">is</li>
-            <li class="childul">a</li>
-            <li class="childul">list </li>
-            <li class="childul">of my dreams</li>
-        </ul>
-    </div>
-    <div class="child">child 2</div>
-    <div class="child red">child 3</div>
-    <div class="child">child 4</div>
-    <form action="none.html" method="post">
-        <a href="https://github.com/Subham-Maity/js-bootcamp">Go to xam's repo</a>
-        <br>
-        <br>
-        Search this website: <input type="text" name="Hello" id="">
-        <input type="button" value="submit">
-    </form>
+    <ul class="this">
+      <li class="childul">this</li>
+      <li class="childul">is</li>
+      <li class="childul">a</li>
+      <li class="childul">list </li>
+      <li class="childul">of my dreams</li>
+    </ul>
+  </div>
+  <div class="child">child 2</div>
+  <div class="child red">child 3</div>
+  <div class="child">child 4</div>
+  <form action="none.html" method="post">
+    <a href="https://github.com/Subham-Maity/js-bootcamp">Go to xam's repo</a>
+    <br>
+    <br>
+    Search this website: <input type="text" name="Hello" id="">
+    <input type="button" value="submit">
+  </form>
 </div>
 <br>
 <div class="no">this is a dummy div1</div>
@@ -4674,7 +4676,189 @@ let a = document;
 <script src="level3_Day10.js"></script>
 </html>
 
+
 ```
 **Note :-**
 - The id global attribute defines an identifier (ID) which must be unique in the whole document. Its purpose is to identify the element when linking (using a fragment identifier), scripting, or styling (with CSS).
 - Child nodes (or children) – elements that are direct children. In other words, they are nested exactly in the given one. For instance, <head> and <body> are children of <html> element. Descendants – all elements that are nested in the given one, including children, their children and so on
+
+# WebPage Crawler In JavaScript
+
+## Excercise - 
+
+### - You have to create a variable which is a string containing the text which is a link you are interested in
+### - Your task is to fetch all the links from a given page which contains this text.
+For example, you have to fetch the link which contains JavaScript word or text that looks like www.google.com. You have to fetch all the links, filter them and then display the links you are interested in on the screen.
+
+#### Operation on HTML
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid rgb(168, 29, 29);
+        }
+    </style>
+</head>
+<body>
+
+<h1>CodeXam Repo Management</h1>
+<h2><p><b>Java:</b></p></h2>
+<h3><p><b>My repo:</b></p></h3>
+
+<table>
+    <tr>
+        <th>JAVA Documentation And Problems</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>Problem Solving</td>
+        <td><a href="https://github.com/Subham-Maity/java-python-problem-solving-series" target="_blank">Click Here</a> </td>
+    </tr>
+    <tr>
+        <td>JAVA CheatSheet</td>
+        <td><a href="https://github.com/Subham-Maity/JAVA-CheatSheet" target="_blank">Click Here</a></td>
+    </tr>
+    <td>
+        OOP CheatSheet Java </td>
+    <td><a href="https://github.com/Subham-Maity/OOP-CheatSheet-Java" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>JAVA string data structure</td>
+        <td><a href="https://github.com/Subham-Maity/java-string-data-structure" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+            JAVA arrays data structure</td>
+        <td><a href="https://github.com/Subham-Maity/java-arrays-data-structure" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+            JAVA recursion-and-backtracking </td>
+        <td><a href="https://github.com/Subham-Maity/java-recursion-and-backtracking" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+            Roadmap For Practicing Data Structures And Algorithm</td>
+        <td><a href="https://github.com/Subham-Maity/dsa-roadmap" target="_blank">Click Here</a></td>
+    </tr>
+
+    <tr>
+        <td>
+            Data Structure and Algorithms Notes</td>
+        <td><a href="https://github.com/Subham-Maity/Data-Structure-and-Algorithms" target="_blank">Click Here</a></td>
+    </tr>
+
+    <tr>
+        <td>
+            DSA-placement-series</td>
+        <td><a href="https://github.com/Subham-Maity/DSA-placement-series" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+
+</table>
+
+<table>
+    <tr>
+        <th>JAVA Projects</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>Drawing Board-V1.0 JAVA Swing</td>
+        <td><a href="https://github.com/Subham-Maity/Drawing-Board-V1.0-java-Swing" target="_blank">Click Here</a> </td>
+    </tr>
+    <tr>
+        <td>Currency Converter dollar-inr</td>
+        <td><a href="https://github.com/Subham-Maity/Currency-Converter-dollar-inr" target="_blank">Click Here</a></td>
+    </tr>
+    <td>
+        Android Basic Apps Java
+    </td>
+    <td><a href="https://github.com/Subham-Maity/Android-Basic-Apps-Java" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+            Small Project Java</td>
+        <td><a href="https://github.com/Subham-Maity/Small-Project-Java" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+
+            Java Swing GUI Projects</td>
+        <td><a href="https://github.com/Subham-Maity/Java-Swing-GUI-Projects" target="_blank">Click Here</a></td>
+    </tr>
+
+</table>
+
+<h3><p><b>Forked Repo:</b></p></h3>
+
+<table>
+
+
+    <tr>
+        <th>JAVA Documentation And Problems</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>DSA-Bootcamp-Java(kunal-kushwaha)</td>
+        <td><a href="https://github.com/Subham-Maity/DSA-Bootcamp-Java" target="_blank">Click Here</a> </td>
+    </tr>
+
+    <tr>
+        <td>DSA-Java (Nidhi Chaurasia)</td>
+        <td><a href="https://github.com/Subham-Maity/DSA-Java" target="_blank">Click Here</a> </td>
+    </tr>
+    <tr>
+        <td>Data-Structures-and-Algorithms(Pranay)
+        </td>
+        <td><a href="https://github.com/Subham-Maity/Data-Structures-and-Algorithms/tree/main" target="_blank">Click Here</a></td>
+    </tr>
+    <td>
+        Java Tutorial For Beginners(in28minutes) </td>
+    <td><a href="https://github.com/Subham-Maity/java-tutorial-for-beginners" target="_blank">Click Here</a></td>
+    </tr>
+
+
+    <tr>
+
+</table>
+
+<table>
+    <tr>
+        <th>JAVA Projects</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>Java_DrawingBoard(xiaoming-lu)</td>
+        <td><a href="https://github.com/Subham-Maity/Java_DrawingBoard" target="_blank">Click Here</a></td>
+    </tr>
+    <tr>
+        <td>
+            teku[eth]( djrtwo)</td>
+        <td><a href="https://github.com/Subham-Maity/teku" target="_blank">Click Here</a></td>
+    </tr>
+
+</table>
+
+</body>
+<script src="level3_Day11.js"></script>
+
+</html>
+
+```
+#### JS Solution 
+
+```js
+console.log('Exercise 11');
+
+let a = document.links;
+for(i=0; i<a.length; i++){
+    let string =a[i].toString() ;
+    if(string.includes('Subham')){
+        console.log(a[i]);
+    }
+}
+```

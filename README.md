@@ -149,8 +149,18 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Document Object Properties and Methods](#document-object-properties-and-methods)
   * [Experiment](#experiment-understanding-dom--creating-a-website-layout)
 * [**WebPage Crawler In JavaScript**](#webpage-crawler-in-javascript)
- 
 
+* [**HTML Element Selectors In JavaScript**](#html-element-selectors-in-javascript)
+  * [Single Element Selector:-](#single-element-selector-)
+  * [Accessing Elements by ID:-](#accessing-elements-by-id-)
+  * [Explanation of above Example:-](#explanation-of-above-example-)
+  * [querySelector;-](#queryselector-)
+  * [Multiple Element Selector:-](#multiple-element-selector-)
+  * [querySelectorAll:-](#queryselectorall-)
+  * [Accessing Elements by Tag Name:-](#accessing-elements-by-tag-name-)
+  * [Accessing Elements by Class:-](#accessing-elements-by-class-)
+  * [Experiments](#experimentsaccessing-element)
+  
 
 
 
@@ -5014,6 +5024,138 @@ To find how many elements with class="demo" there are in the document, we use th
 
 ```js
 document.getElementsByClassName("demo").length;
+```
+
+## Experiments(Accessing Element)
+
+```js
+console.log('Welcome to day 12');
+/*
+element selectors:
+1. Single element selector
+2. Multi element selector
+
+*/
+let element = document.getElementById('myfirst');
+
+
+/*1. Single element selector*/
+// let element = document.getElementById('myfirst');
+// console.log(element);
+
+/*2. element = element.className;*/
+// element = element.childNodes;
+// element = element.parentNode;
+// console.log(element);
+
+
+/*3.color change*/
+// element.style.color = 'red';
+// element.innerText = 'Subham is a good boy';
+// console.log(element);
+
+/*4.Inner HTML*/
+// element.innerHTML = '<b>Subham is a good boy</b>';
+// console.log(element.innerText);
+
+
+/*5.Inner HTML Grab*/
+// element.innerHTML = '<b>Subham is a good boy</b>';
+// console.log(element.innerHTML);
+
+
+/*6.QuerySelector*/
+// let sel = document.querySelector('#myfirst');
+// sel = document.querySelector('.child');
+// sel = document.querySelector('div'); ////only first div you can get
+// /*7.div color change */
+// sel.style.color = 'green';
+// console.log(sel)
+
+
+
+/*8. Multi element selector*/
+// let elems = document.getElementsByClassName('child');
+// elems = document.getElementsByClassName('container');
+// elems = document.getElementsByTagName('div');
+// console.log(elems[1].getElementsByClassName('child'))
+
+
+
+
+/*9.Bold all div contains */
+
+//
+// let elems = document.getElementsByClassName('child');
+// elems = document.getElementsByClassName('container');
+// elems = document.getElementsByTagName('div');
+// console.log(elems[0].getElementsByClassName('child'))
+// console.log(elems[1].getElementsByClassName('child'))
+//
+//
+//
+//
+//
+// /*for (let index = 0; index < elems.length; index++) {
+//     const element = elems[index];
+//     console.log(element);
+//     element.style.color = 'blue';
+// }*/
+//
+//
+// Array.from(elems).forEach(element => {
+//     console.log(element);
+//    element.style.color = 'blue';
+// });
+
+
+
+
+
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="heading"> Welcome to Code With Harry</h1>
+    <div id="myfirst" class="child red good" id="first">child 1
+
+        <ul class="this">
+            <li class="childul">this</li>
+            <li class="childul">is</li>
+            <li class="childul">a</li>
+            <li class="childul">list </li>
+            <li class="childul">of my dreams</li>
+        </ul>
+    </div>
+    <div class="child">child 2</div>
+    <div class="child red">child 3</div>
+    <div class="child">child 4</div>
+    <form action="none.html" method="post">
+        <a href="https://github.com/Subham-Maity/js-bootcamp">Go to xam's repo</a>
+        <br>
+        <br>
+        Search this website: <input type="text" name="Hello" id="">
+        <input type="button" value="submit">
+    </form>
+</div>
+<br>
+<div class="no">this is a dummy div1</div>
+<div class="no">this is a dummy div2</div>
+<div class="no">this is a dummy div3</div>
+</body>
+<!--*** Note:- uncomment the line which js experiment file you wanna access *** -->
+
+<script src="level3_Day12.js"></script>
+</html>
 ```
 
 

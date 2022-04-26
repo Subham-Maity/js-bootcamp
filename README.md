@@ -4347,3 +4347,260 @@ console.log(a);
 
 
 ```
+
+# Understanding DOM & Creating a Website Layout
+
+We can access the document content and modified it is called the Document Object Model, or DOM. The Objects are organized in a hierarchy.
+The window object is at the top of the hierarchy. The second one is the document object. The HTML document that gets loaded into a window becomes a document object. The third one is the forms. Everything enclosed in the ```<form>...</form>``` tags sets the form object. And the last one is the Form control elements. The form object contains all the elements defined for that object, such as input fields, buttons, radio buttons, and checkboxes.
+The DOM is a tree-like representation of the contents of a webpage. Tree of “nodes” with different relationships depending on how they are arranged in the HTML document.
+
+```html
+<div id="main_class ">
+<div class="myclass1"></div>
+<div class="myclass2"></div>
+</div>
+```
+
+**Explanation:**
+
+In the above example, the
+
+ ```<div class="myclass1"></div>``` is a “child” of ```<div id="main_class"></div>``` and a sibling to ```<div class="myclass2"></div>```. It is like a family tree. ```<div id="main_class"></div>``` is a parent, with its children on the next level, each on their own “branch”.
+
+## DOM Properties:-
+With the Document Object Model (DOM), we can create and build documents, add, modify, or delete elements and content. Anything found in an HTML document can be accessed, changed, deleted, or added using the Document Object Model, with a few exceptions. The syntax for accessing the DOM properties is:
+
+```js
+document.property_name
+```
+
+## Document Object Properties and Methods
+
+**Note that:** The DOM is a representation of the various components of the browser and the current Web document that can be accessed or manipulated using JavaScript.
+
+<table class="ws-table-all notranslate">
+<tr>
+    <th>Property / Method</th>
+    <th>Description</th>
+</tr>
+<tr>
+    <td><a href="prop_document_activeelement.asp">activeElement</a></td>
+    <td>Returns the currently focused element in the document</td>
+</tr>
+<tr>
+    <td><a href="met_document_addeventlistener.asp">addEventListener()</a></td>
+    <td>Attaches an event handler to the document</td>
+</tr>
+<tr>
+  <td><a href="met_document_adoptnode.asp">adoptNode()</a></td>
+  <td>Adopts a node from another document</td>
+</tr>
+<tr>
+    <td><a href="coll_doc_anchors.asp">anchors</a></td>
+    <td><span class="deprecated"><a href="coll_doc_anchors.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="coll_doc_applets.asp">applets</a></td>
+    <td><span class="deprecated"><a href="coll_doc_applets.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+  <td><a href="prop_doc_baseuri.asp">baseURI</a></td>
+  <td>Returns the absolute base URI of a document</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_body.asp">body</a></td>
+    <td>Sets or returns the document's body (the &lt;body&gt; element)</td>
+</tr>
+  <tr>
+  <td><a href="prop_document_charset.asp">charset</a></td>
+  <td><span class="deprecated"><a href="prop_document_charset.asp">Deprecated</a></span></td>
+  </tr>
+  <tr>
+  <td><a href="prop_document_characterset.asp">characterSet</a></td>
+  <td>Returns the character encoding for the document</td>
+  </tr>
+<tr>
+    <td><a href="met_doc_close.asp">close()</a></td>
+    <td>Closes the output stream previously opened with document.open()</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_cookie.asp">cookie</a></td>
+    <td>Returns all name/value pairs of cookies in the document</td>
+</tr>
+<tr>
+  <td><a href="met_document_createattribute.asp">createAttribute()</a></td>
+  <td>Creates an attribute node</td>
+</tr>
+<tr>
+  <td><a href="met_document_createcomment.asp">createComment()</a></td>
+  <td>Creates a Comment node with the specified text</td>
+</tr>
+<tr>
+  <td><a href="met_document_createdocumentfragment.asp">createDocumentFragment()</a></td>
+  <td>Creates an empty DocumentFragment node</td>
+</tr>
+<tr>
+  <td><a href="met_document_createelement.asp">createElement()</a></td>
+  <td>Creates an Element node</td>
+</tr>
+<tr>
+  <td><a href="event_createevent.asp">createEvent()</a></td>
+  <td>Creates a new event</td>
+</tr>
+<tr>
+  <td><a href="met_document_createtextnode.asp">createTextNode()</a></td>
+  <td>Creates a Text node</td>
+</tr>
+<tr>
+  <td><a href="prop_document_defaultview.asp">defaultView</a></td>
+  <td>Returns the window object associated with a document, or null if none is available.</td>
+</tr>
+<tr>
+  <td><a href="prop_document_designmode.asp">designMode</a></td>
+  <td>Controls whether the entire document should be editable or not.</td>
+</tr>
+<tr>
+  <td><a href="prop_document_doctype.asp">doctype</a></td>
+  <td>Returns the Document Type Declaration associated with the document</td>
+</tr>
+<tr>
+  <td><a href="prop_document_documentelement.asp">documentElement</a></td>
+  <td>Returns the Document Element of the document (the &lt;html&gt; element)</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_documentmode.asp">documentMode</a></td>
+    <td><span class="deprecated"><a href="prop_doc_documentmode.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+  <td><a href="prop_document_documenturi.asp">documentURI</a></td>
+  <td>Sets or returns the location of the document</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_domain.asp">domain</a></td>
+    <td>Returns the domain name of the server that loaded the document</td>
+</tr>
+<tr>
+  <td><a href="prop_document_domconfig.asp">domConfig</a></td>
+  <td><span class="deprecated"><a href="prop_document_domconfig.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+  <td><a href="coll_doc_embeds.asp">embeds</a></td>
+  <td>Returns a collection of all &lt;embed&gt; elements the document</td>
+</tr>
+<tr>
+  <td><a href="met_document_execcommand.asp">execCommand()</a></td>
+  <td><span class="deprecated"><a href="met_document_execcommand.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="coll_doc_forms.asp">forms</a></td>
+    <td>Returns a collection of all &lt;form&gt; elements in the document</td>
+</tr>
+<tr>
+  <td><a href="met_document_getelementbyid.asp">getElementById()</a></td>
+  <td>Returns the element that has the ID attribute with the specified value</td>
+</tr>
+<tr>
+    <td><a href="met_document_getelementsbyclassname.asp">getElementsByClassName()</a></td>
+    <td>Returns an <a href="dom_obj_htmlcollection.asp">HTMLCollection</a> containing all elements with the specified class name</td>
+</tr>
+<tr>
+    <td><a href="met_doc_getelementsbyname.asp">getElementsByName()</a></td>
+    <td>Returns an live <a href="dom_obj_html_nodelist.asp">NodeList</a> containing all elements with the specified name</td>
+</tr>
+<tr>
+  <td><a href="met_document_getelementsbytagname.asp">getElementsByTagName()</a></td>
+  <td>Returns an <a href="dom_obj_htmlcollection.asp">HTMLCollection</a> containing all elements with the specified tag name</td>
+</tr>
+<tr>
+    <td><a href="met_document_hasfocus.asp">hasFocus()</a></td>
+    <td>Returns a Boolean value indicating whether the document has focus</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_head.asp">head</a></td>
+    <td>Returns the &lt;head&gt; element of the document</td>
+</tr>
+<tr>
+    <td><a href="coll_doc_images.asp">images</a></td>
+    <td>Returns a collection of all &lt;img&gt; elements in the document</td>
+</tr>
+<tr>
+  <td><a href="prop_document_implementation.asp">implementation</a></td>
+  <td>Returns the DOMImplementation object that handles this document</td>
+</tr>
+<tr>
+  <td><a href="met_document_importnode.asp">importNode()</a></td>
+  <td>Imports a node from another document</td>
+</tr>
+<tr>
+  <td><a href="prop_document_inputencoding.asp">inputEncoding</a></td>
+  <td><span class="deprecated"><a href="prop_document_inputencoding.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="prop_doc_lastmodified.asp">lastModified</a></td>
+    <td>Returns the date and time the document was last modified</td>
+</tr>
+<tr>
+    <td><a href="coll_doc_links.asp">links</a></td>
+    <td>Returns a collection of all &lt;a&gt; and &lt;area&gt; elements in the document that have a href attribute</td>
+</tr>
+<tr>
+  <td><a href="met_document_normalize.asp">normalize()</a></td>
+  <td>Removes empty Text nodes, and joins adjacent nodes</td>
+</tr>
+<tr>
+  <td><a href="met_document_normalizedocument.asp">normalizeDocument()</a></td>
+  <td><span class="deprecated"><a href="met_document_normalizedocument.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="met_doc_open.asp">open()</a></td>
+    <td>Opens an HTML output stream to collect output from document.write()</td>
+</tr>
+<tr>
+    <td><a href="met_document_queryselector.asp">querySelector()</a></td>
+    <td>Returns the first element that matches a specified CSS selector(s) in the document</td>
+</tr>
+<tr>
+    <td><a href="met_document_queryselectorall.asp">querySelectorAll()</a></td>
+    <td>Returns a static <a href="dom_obj_html_nodelist.asp">NodeList</a> containing all elements that matches a specified CSS selector(s) in the document</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_readystate.asp">readyState</a></td>
+    <td>Returns the (loading) status of the document</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_referrer.asp">referrer</a></td>
+    <td>Returns the URL of the document that loaded the current document</td>
+</tr>
+<tr>
+    <td><a href="met_document_removeeventlistener.asp">removeEventListener()</a></td>
+    <td>Removes an event handler from the document (that has been attached with the <a href="met_document_addeventlistener.asp">addEventListener()</a> method)</td>
+</tr>
+<tr>
+  <td><a href="met_document_renamenode.asp">renameNode()</a></td>
+  <td><span class="deprecated"><a href="met_document_renamenode.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="coll_doc_scripts.asp">scripts</a></td>
+    <td>Returns a collection of &lt;script&gt; elements in the document</td>
+</tr>
+<tr>
+  <td><a href="prop_document_stricterrorchecking.asp">strictErrorChecking</a></td>
+  <td><span class="deprecated"><a href="prop_document_stricterrorchecking.asp">Deprecated</a></span></td>
+</tr>
+<tr>
+    <td><a href="prop_doc_title.asp">title</a></td>
+    <td>Sets or returns the title of the document</td>
+</tr>
+<tr>
+    <td><a href="prop_doc_url.asp">URL</a></td>
+    <td>Returns the full URL of the HTML document</td>
+</tr>
+<tr>
+    <td><a href="met_doc_write.asp">write()</a></td>
+    <td>Writes HTML expressions or JavaScript code to a document</td>
+</tr>
+<tr>
+    <td><a href="met_doc_writeln.asp">writeln()</a></td>
+    <td>Same as write(), but adds a newline character after each statement</td>
+</tr>
+</table>

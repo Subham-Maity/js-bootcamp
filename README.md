@@ -5158,6 +5158,168 @@ let element = document.getElementById('myfirst');
 </html>
 ```
 
+# Children, Parent & Traversing the DOM 
+
+In the previous tutorial, we have learned how to use the built-in methods of the document object to access HTML elements by ID, class, tag name, and query selectors. Often, we want to move through the DOM without specifying every element beforehand. In this tutorial, we will go over how to traverse the DOM using parent, child, and sibling properties. As we know that all the operations on the DOM start with the document object. It is the main entry point, and we can access any node from it. Here is a diagram of links that allow for travel between DOM nodes:
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/45.png?raw=true"/>
+        </p>
+
+## Traversing downwards:-
+There are two methods to traverse downwards, the first one is querySelector and the second one is children. 
+
+## querySelector or querySelectorAll:-
+To traverse downwards from a specific element, we can use querySelector( ) or querySelectorAll( ). The querySelector() returns the first element within the document that matches the specified selector whereas the querySelectorAll() returns the NodeList representing a list of the document's elements that match the specified group of selectors.
+
+```js
+<div class="add">
+<h2 class="add__title">title</h2>
+</div>
+const component = document.querySelector('.add')
+console.log(component)
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/46.png?raw=true"/>
+        </p>
+
+To return the first and last child of a node, use the firstChild and lastChild property. The node can be of any node type, including text node, comment node, and element node. Similarly, firstElementChild and lastElementChild return the first and last child Element node, and the childNodes returns a live NodeList of all child nodes of any node type of a specified node.
+
+## Selecting a specific child:-
+While traversing the DOM, we can select the nth-item in the list from both NodeLists and HTML Collections. For this, we use the index of the element. Similarly, we do in the case of the array to select a specific element.
+
+```js
+const mylist = document.querySelectorAll('li')
+const firstItem = mylist[0]
+const secondItem = mylist[1]
+console.log(firstItem)
+console.log(secondItem)
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/47.png?raw=true"/>
+        </p>
+
+
+## Traversing upwards:-
+There is one method to traverse upwards: parentElement
+
+## parentElement:-
+The property that let us select the parent element is known as parentElement. The parentElement returns null if the parent node is not an element node. Following is the example
+```js
+const mylist = document.querySelectorAll('li')
+const firstItem = mylist[0]
+const secondItem = mylist[1]
+console.log(firstItem.parentElement)
+console.log(secondItem.parentElement)
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/48.png?raw=true"/>
+        </p>
+
+
+## Traversing sideways:-
+There are two methods to traverse sideways. One of them is nextElementSibling, and the other one is previousElementSibling.
+
+## nextElementSibling:-
+To select the next element, we use the nextElementSibling. The difference between this property and nextSibling is that nextSibling returns the next sibling node as an element node, a text node or a comment node, while nextElementSibling returns the next sibling node as an element node and ignores the text and comment nodes.
+
+```js
+const item1 = document.querySelector('li')
+const item2 = item1.nextElementSibling
+console.log(item2)
+```
+
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/49.png?raw=true"/>
+        </p>
+
+## previousElementSibling:-
+To select the previous element, we use previousElementSibling. The difference between this property and previousSibling, is that previousSibling returns the previous sibling node as an element node, a text node or a comment node, while previousElementSibling returns the previous sibling node as an element node and ignores the text and comment nodes.
+
+```js
+const item5 = document.querySelectorAll('li')[1]
+const item6 = item5.previousElementSibling
+console.log(item6)
+```
+<p align="center">
+        <img src="https://github.com/Subham-Maity/js-bootcamp/blob/master/Image(ignore)/50.png?raw=true"/>
+        </p>
+
+## Node Type:-
+The nodeType property is an integer that identifies what the node is. It differentiate between different kind of nodes from each other, such as elements, text and comments. The syntax is:
+
+```js
+var type = node.nodeType;
+```
+It will return an integer which specifies the type of the node.
+
+<table>
+<tr>
+<td>Constant </td>
+<td>Value </td>
+<td>Description </td>
+</tr>
+<tr>
+<td>Node.ELEMENT_NODE </td>
+<td>1</td>
+<td>	
+An Element node like < h1 >  or < p >. < / td >
+</tr>
+
+<tr>
+<td>Node.ATTRIBUTE_NODE </td>
+<td>2</td>
+<td>	
+An Attribute of an Element.
+</tr>
+
+<tr>
+<td>Node.TEXT_NODE </td>
+<td>3</td>
+<td>	
+The actual Text inside an Element
+</tr>
+
+<tr>
+<td>Node.COMMENT_NODE</td>
+<td>8</td>
+<td>	
+A Comment node
+</tr>
+
+<tr>
+<td>Node.DOCUMENT_NODE</td>
+<td>9</td>
+<td>	
+
+A Document node.
+</tr>
+
+
+<tr>
+<td>Node.DOCUMENT_TYPE_NODE</td>
+<td>10</td>
+<td>	
+
+A DocumentType( < ! DOCTYPE html > ) node
+</tr>
+
+<tr>
+<td>Node.DOCUMENT_FRAGMENT_NODE</td>
+<td>11</td>
+<td>	
+A DocumentFragment node.
+</tr>
+</table>
+
+
+
+
+
+
+
 
 
 

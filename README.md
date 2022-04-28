@@ -5485,7 +5485,10 @@ console.log(container.firstElementChild.nextElementSibling.nextElementSibling);
 </html>
 ```
 
+# Creating, Removing & Replacing Elements
+In the previous lecture, we explored a number of ways to select the HTML element. In this tutorial, we will study how to create new elements and manipulate existing elements on the page, such as removing elements from the page, replacing elements with new elements. This tutorial will help us master all the javaScript techniques that we need to manipulate elements in the DOM.
 
+## createElement():-
 
 
 

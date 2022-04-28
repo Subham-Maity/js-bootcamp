@@ -161,6 +161,17 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Accessing Elements by Class:-](#accessing-elements-by-class-)
   * [Experiments](#experimentsaccessing-element)
   
+* [**Children, Parent & Traversing the DOM**](#children-parent--traversing-the-dom)
+  * [Traversing downwards:-](#traversing-downwards-)
+  * [querySelector or querySelectorAll:-](#queryselector-or-queryselectorall-)
+  * [Selecting a specific child:-](#selecting-a-specific-child-)
+  * [Traversing upwards:-](#traversing-upwards-)
+  * [parentElement:-](#parentelement-)
+  * [Traversing sideways:-](#traversing-sideways-)
+  * [previousElementSibling:-](#previouselementsibling-)
+  * [Node Type:-](#node-type-)
+
+  
 
 
 
@@ -5313,6 +5324,166 @@ A DocumentType( < ! DOCTYPE html > ) node
 A DocumentFragment node.
 </tr>
 </table>
+
+## Experiments (Children, Parent & Traversing the DOM)
+
+```js
+console.log('Welcome to Day 15');
+
+
+
+
+
+
+
+
+
+/*1. querySelector or querySelectorAll:-
+ To traverse downwards from a specific element, we can use querySelector( ) or querySelectorAll( ).
+ The querySelector() returns the first element within the document that matches the specified selector
+ whereas the querySelectorAll() returns the NodeList representing a list of the document's elements
+ that match the specified group of selectors.*/
+
+// let cont = document.querySelector('.no');
+// console.log(cont);
+//
+// cont = document.querySelector('.container');
+// console.log(cont);
+
+
+
+
+
+
+
+
+
+
+/*2. We want to get our all child node now*/
+// console.log(cont.childNodes);//it will show you everything include text and commends
+// console.log(cont.children); // it will give us only children element and ignore text , commends inside cont or new line and so on
+
+
+
+
+
+
+
+
+/*3.It will show you exact node name of the index position which you entered*/
+// let nodeName = cont.childNodes[1].nodeName;
+// console.log(nodeName);
+
+
+
+
+
+
+
+
+
+
+/*4.it will show you the entered index position's elements type in the array */
+
+/*Constant	                  Value	       Description
+Node.ELEMENT_NODE	            1	       An Element node like < h1 > or < p >. < / td >
+Node.ATTRIBUTE_NODE	            2          An Attribute of an Element.
+Node.TEXT_NODE	                3	       The actual Text inside an Element
+Node.COMMENT_NODE	            8	       A Comment node
+Node.DOCUMENT_NODE	            9          A Document node.
+Node.DOCUMENT_TYPE_NODE	       10          A DocumentType( < ! DOCTYPE html > ) node
+Node.DOCUMENT_FRAGMENT_NODE	   11	       A DocumentFragment node.
+
+
+Node types
+1. Element
+2. Attribute
+3. Text Node
+8. Comment
+9. document
+10. docType*/
+
+
+
+
+
+
+
+
+
+
+/*5.find children in the document */
+// let container = document.querySelector('div.container');
+// console.log(container.children);
+// console.log(container.children[1].children[0].children);
+
+
+
+
+
+
+
+
+/*6.element*/
+let container = document.querySelector('div.container');
+// console.log(container.firstChild); //first child
+// console.log(container.firstElementChild); //first child's element
+// console.log(container.lastChild);
+// console.log(container.lastElementChild);//last child
+// console.log(container.childElementCount); //child element's count
+console.log(container.firstElementChild);//first element child
+console.log(container.firstElementChild.parentNode);//parent is the container
+console.log(container.firstElementChild.nextSibling);//it will give you sibling
+console.log(container.firstElementChild.nextElementSibling);
+console.log(container.firstElementChild.nextElementSibling.nextElementSibling);
+
+```
+
+**html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1 id="heading"> Welcome </h1>
+    <div id="myfirst" class="child red good" id="first">child 1
+
+        <ul class="this">
+            <li class="childul">this</li>
+            <li class="childul">is</li>
+            <li class="childul">a</li>
+            <li class="childul">list </li>
+            <li class="childul">of my dreams</li>
+        </ul>
+    </div>
+    <div class="child">child 2</div>
+    <div class="child red">child 3</div>
+    <div class="child">child 4</div>
+    <form action="none.html" method="post">
+        <a href="//google.com">Go to Google</a>
+        <br>
+        <br>
+        Search this website: <input type="text" name="Hello" id="">
+        <input type="button" value="submit">
+    </form>
+</div>
+<br>
+<div class="no">this is a dummy div1</div>
+<div class="no">this is a dummy div2</div>
+<div class="no">this is a dummy div3</div>
+</body>
+<!--*** Note:- uncomment the line which js experiment file you wanna access *** -->
+
+<script src="level3_Day13.js"></script>
+</html>
+```
 
 
 

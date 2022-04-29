@@ -170,7 +170,20 @@ I love Programming. One of the aims I had when I started ```CodeXam``` was to ma
   * [Traversing sideways:-](#traversing-sideways-)
   * [previousElementSibling:-](#previouselementsibling-)
   * [Node Type:-](#node-type-)
-
+  * [Experiments](#experiments-children-parent--traversing-the-dom)
+* [**Creating, Removing & Replacing Elements**](#creating-removing--replacing-elements)
+  * [createElement():-](#createelement-)
+  * [appendChild():-](#appendchild-)
+  * [Working with Attributes:-](#working-with-attributes-)
+    * [setAttribute() :-](#setattribute--)
+    * [getAttribute()](#getattribute)
+    * [hasAttribute():-](#hasattribute-)
+    * [removeAttribute() :-](#removeattribute--)
+    * [replaceWith():-](#replacewith-)
+    * [replaceChild():-](#replacechild-)
+    * [removeChild():-](#removechild-)
+  * [Experiments](#experimentscreating-removing--replacing-elements)
+  
   
 
 

@@ -1,4 +1,4 @@
-console.log('Day 14');0
+console.log('Day 14');
 let element = document.createElement('li');
 let text = document.createTextNode('I am a text node');
 element.appendChild(text)
